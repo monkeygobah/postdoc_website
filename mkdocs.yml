@@ -1,0 +1,42 @@
+site_name: UIC Global Oculomics 
+site_url: https://monkeygobah.github.io/postdoc-site/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Roadmap: roadmap.md
+  - Datasets: datasets.md
+  - Foundational Model: foundational.md
+  - Global Deployments: deployments.md
+  - Side Quests: side_quests.md
+  - Tools & Assets: assets.md
+  - Publications: publications.md
+  - Team: team.md
+  - Collaborate With Us: collaborate.md
+
+extra_css:
+  - css/progress.css
+  - css/custom.css
+
+extra_javascript:
+  - js/progress.js
+
+plugins:
+  - search

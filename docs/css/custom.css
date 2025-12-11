@@ -1,0 +1,35 @@
+/* ----------------------------- */
+/* Milestone list formatting     */
+/* ----------------------------- */
+
+/* Base <li> style */
+[data-progress] ul li {
+    margin-bottom: 0.25rem;
+    position: relative;
+    padding-left: 1.2rem;
+    list-style: none;   /* remove default bullet */
+  }
+  
+  /* Bullet for incomplete milestones */
+  [data-progress] ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #888;
+    font-weight: bold;
+  }
+  
+  /* Completed milestones */
+  [data-progress] ul li.done {
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+  
+  /* Swap bullet for a checkmark when done */
+  [data-progress] ul li.done::before {
+    content: "✓";
+    color: #0a7b34;   /* green check */
+    font-weight: bold;
+  }
+  

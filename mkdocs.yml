@@ -9,16 +9,16 @@ theme:
     - scheme: slate
       primary: teal
       accent: lime
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: default
-      primary: blue grey
-      accent: teal
-      background: "#f5f5f5"
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+    #   toggle:
+    #     icon: material/weather-sunny
+    #     name: Switch to light mode
+    # - scheme: default
+    #   primary: blue grey
+    #   accent: teal
+    #   background: "#f5f5f5"
+    #   toggle:
+    #     icon: material/weather-night
+    #     name: Switch to dark mode
   font:
     text: Inter
     code: JetBrains Mono

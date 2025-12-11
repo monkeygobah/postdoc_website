@@ -32,4 +32,238 @@
     color: #0a7b34;   /* green check */
     font-weight: bold;
   }
+
+
+
+  /* Dataset overview cards */
+
+.dataset-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+  }
   
+  @media (min-width: 900px) {
+    .dataset-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  .dataset-card {
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+  
+  .dataset-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .dataset-card p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .dataset-meta {
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+  
+  
+
+  /* Tier badges */
+.tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Colors */
+.tier1 { background-color: #10b981; }   /* Green */
+.tier2 { background-color: #3b82f6; }   /* Blue */
+.tier3 { background-color: #f59e0b; }   /* prange */
+
+
+  
+
+/* Base styling for tiered deployment blocks */
+.md-typeset details.deploy-tier1,
+.md-typeset details.deploy-tier2,
+.md-typeset details.deploy-tier3 {
+  border-radius: 6px;
+  margin: 0.75rem 0;
+  background-color: rgba(255,255,255,0.01);
+}
+
+/* Color-coded borders on the summary bar */
+.md-typeset details.deploy-tier1 > summary {
+  border-left: 4px solid #10b981; /* green */
+}
+
+.md-typeset details.deploy-tier2 > summary {
+  border-left: 4px solid #3b82f6; /* blue */
+}
+
+.md-typeset details.deploy-tier3 > summary {
+  border-left: 4px solid #f59e0b; /* amber */
+}
+
+
+/* =========================
+   Dataset cards (datasets.md)
+   ========================= */
+
+/* Base container for all dataset detail blocks */
+.dataset-pretraining,
+.dataset-uic,
+.dataset-external,
+.dataset-global {
+  margin: 0.75rem 0 1rem;
+  border-radius: 6px;
+  border: 1px solid #1f2933;           /* subtle border */
+  background-color: rgba(15, 23, 42, 0.3); /* faint dark overlay – works in light/dark */
+}
+
+/* Make the summary row stand out */
+/* .dataset-pretraining > summary,
+.dataset-uic > summary,
+.dataset-external > summary,
+.dataset-global > summary {
+  padding: 0.4rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+} */
+
+/* Left color stripe per category */
+.dataset-pretraining > summary {
+  border-left: 4px solid #0d9488;   /* teal – pretraining */
+}
+
+.dataset-uic > summary {
+  border-left: 4px solid #4f46e5;   /* indigo – UIC clinical */
+}
+
+.dataset-external > summary {
+  border-left: 4px solid #f59e0b;   /* amber – external OOD */
+}
+
+.dataset-global > summary {
+  border-left: 4px solid #10b981;   /* emerald – global prospective */
+}
+
+/* Optional: tweak inner content spacing */
+.dataset-pretraining > div,
+.dataset-uic > div,
+.dataset-external > div,
+.dataset-global > div {
+  padding: 0.5rem 0.9rem 0.75rem;
+}
+
+
+/* Roadmap Phase Cards */
+.roadmap-phase {
+    border-left: 4px solid #3b82f6;  /* Blue accent */
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .roadmap-phase > summary {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+
+  /* ================================
+   Side Quest Cards
+   ================================ */
+
+/* Shared card base for all side quests */
+details.sidequest-ssl,
+details.sidequest-ood {
+  border-radius: 8px;              /* rounded corners */
+  margin: 0.75rem 0;               /* vertical spacing between cards */
+  padding: 0.1rem 0.1rem;          /* small padding so border radius is visible */
+  background-color: rgba(15, 23, 42, 0.3); /* subtle panel background (works in dark/light) */
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.25); /* soft shadow */
+  border: 1px solid rgba(148, 163, 184, 0.5);   /* muted border */
+}
+
+/* Remove extra outline when toggling with keyboard/mouse */
+details.sidequest-ssl:focus-within,
+details.sidequest-ood:focus-within {
+  outline: none;
+}
+
+/* Summary row for all side quests */
+details.sidequest-ssl > summary,
+details.sidequest-ood > summary {
+  list-style: none;                         /* hide default triangle bullet */
+  cursor: pointer;
+  padding: 0.6rem 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Hide default marker in some browsers */
+details.sidequest-ssl > summary::-webkit-details-marker,
+details.sidequest-ood > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Shared pill-style label at left of summary */
+details.sidequest-ssl > summary::before,
+details.sidequest-ood > summary::before {
+  content: "Side Quest";
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+}
+
+/* SSL-specific coloring */
+details.sidequest-ssl {
+  border-left: 4px solid #22c55e;          /* green accent */
+}
+
+details.sidequest-ssl > summary::before {
+  background-color: rgba(34, 197, 94, 0.12);
+  color: #bbf7d0;
+}
+
+/* OOD-specific coloring */
+details.sidequest-ood {
+  border-left: 4px solid #3b82f6;          /* blue accent */
+}
+
+details.sidequest-ood > summary::before {
+  background-color: rgba(59, 130, 246, 0.12);
+  color: #bfdbfe;
+}
+
+/* Body content padding */
+details.sidequest-ssl > *:not(summary),
+details.sidequest-ood > *:not(summary) {
+  padding: 0 0.9rem 0.8rem 0.9rem;
+}
+
+/* Tighter spacing for lists inside side quests */
+details.sidequest-ssl ul,
+details.sidequest-ood ul {
+  margin-top: 0.25rem;
+}
+
+/* Optional: tweak heading spacing inside cards */
+details.sidequest-ssl p:first-of-type,
+details.sidequest-ood p:first-of-type {
+  margin-top: 0.15rem;
+}

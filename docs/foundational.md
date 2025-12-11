@@ -1,6 +1,4 @@
 <!-- docs/foundational.md -->
 # Foundational Model Development
 
-Progress on all development of a foundational model 
-
-## Header 2
+This page coming soon! We have concepts of a plan that are not yet ready for public sharing in granular detail.

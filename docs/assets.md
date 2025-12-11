@@ -14,7 +14,7 @@ Pretrained models are hosted on [Hugging Face](https://huggingface.co/grnahass/p
 These weights support segmentation, distance prediction, and baseline tasks.
 
 ??? dataset-public "Periorbital Segmentation Models"
-    DeepLabV3 and SAM-finetuned models trained on labeled periorbital datasets.  
+    DeepLabV3 models trained on labeled periorbital datasets.  
     Useful for research in eyelid, sclera, brow, and iris segmentation.
 
     **Includes:**

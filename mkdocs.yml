@@ -6,6 +6,12 @@ theme:
   logo: images/ieei.svg
   favicon: images/ieei.svg
   palette:
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
     - scheme: default
       primary: blue grey
       accent: teal
@@ -13,12 +19,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
-      primary: teal
-      accent: lime
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
   font:
     text: Inter
     code: JetBrains Mono

@@ -1,7 +1,6 @@
 # **UIC Global Oculomics Initiative** {.home-hero}
 
-*Building the world’s first multimodal foundational model for oculoplastic and craniofacial disease.* {.subtitle}
-
+*Building the world’s first multimodal foundational model for oculoplastic and craniofacial disease.* 
 ---
 
 <div class="team-section">

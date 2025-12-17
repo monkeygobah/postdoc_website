@@ -34,14 +34,16 @@ It provides:
 
 ---
 
-## Institutional Collaborators and Funding Sources
+## Institutional Collaborators 
 
 - UIC 
-- IEEI
-- AIO
-- RPB
-- NIH
-- PRI
-- Cless Family 
-- Quina Care
+- Illinois Ear and Eye Infirmary
+- UIC Plastic and Reconstructive Surgery
+- Artificial Intelligence in Ophthalmology Center at UIC
+- Panorama Research Institutes
+- Quina Care, Putumayo Ecuador
 
+
+## Funding Sources
+
+This work is supported by an unrestricted grant from Research to Prevent Blindness, a donation from the Cless Family Foundation, and the National Institutes of Health P30 EY001792 core grant. 

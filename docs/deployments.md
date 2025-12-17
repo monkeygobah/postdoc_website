@@ -86,7 +86,7 @@ This section contains progress tracking for each active or prospective site. Exp
 
     <div data-progress>
     <ul>
-      <li>Contact made with local champion</li>
+      <li class="done"> Contact made with local champion</li>
       <li>Hospital intent letter acquired</li>
       <li>IRB drafted</li>
       <li>IRB approved</li>

@@ -77,7 +77,7 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Establish plan with CCTS and IS for EPIC extraction and CCTS duet</li>
         <li class="done">Draft IRB amendment and Data Request Agreement (DRA)</li>
         <li class="done">Obtain stakeholder sign-off from clinical and data teams</li>
-        <li>Submit IRB amendment and DRA for approval</li>
+        <li class="done">Submit IRB amendment and DRA for approval</li>
         <li>Initiate CCTS data pull request</li>
         <li>Transfer relevant components to IS for EPIC pull</li>
         <li>Submit EPIC data extraction request</li>

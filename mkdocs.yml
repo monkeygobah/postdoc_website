@@ -1,10 +1,10 @@
-site_name: UIC Global Oculomics 
+site_name: Global Oculomics 
 site_url: https://monkeygobah.github.io/postdoc-site/
 
 theme:
   name: material
-  logo: images/ieei.svg
-  favicon: images/ieei.svg
+  logo: images/glorbit.svg
+  favicon: images/glorbit.svg
   palette:
     - scheme: slate
       primary: teal

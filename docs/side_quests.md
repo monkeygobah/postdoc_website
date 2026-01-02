@@ -1,7 +1,7 @@
 <!-- docs/side_quests.md -->
 # Side Quest Projects
 
-Side quests are focused, self-contained research projects that meaningfully contribute to the UIC Global Oculomics Initiative while remaining independent from the main objectives of dataset assembly, multimodal pretraining, and global deployments.
+Side quests are focused, self-contained research projects that meaningfully contribute to the Global Oculomics Initiative while remaining independent from the main objectives of dataset assembly, multimodal pretraining, and global deployments.
 They are ideal for collaborators seeking well-defined work with clear scientific value and tangible outputs.
 
 Explore some side quests below that we have been thinking about, but just don't have time to work on right now!

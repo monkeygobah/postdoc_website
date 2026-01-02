@@ -1,7 +1,7 @@
 <!-- docs/publications.md -->
 # Publications
 
-Below is a selected list of publications related to the UIC Global Oculomics Initiative, spanning segmentation, distance prediction, foundational model development, and global deployment infrastructure. Preprints and manuscripts under review are included where appropriate.
+Below is a selected list of publications related to the Global Oculomics Initiative, spanning segmentation, distance prediction, foundational model development, and global deployment infrastructure. Preprints and manuscripts under review are included where appropriate.
 
 ---
 

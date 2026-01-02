@@ -1,6 +1,6 @@
 # Tools & Assets
 
-This page centralizes all publicly shareable tools, model weights, datasets, and annotation utilities developed as part of the UIC Global Oculomics Initiative.  
+This page centralizes all publicly shareable tools, model weights, datasets, and annotation utilities developed as part of the Global Oculomics Initiative.  
 These assets support reproducible research in periorbital measurement, segmentation, distance prediction, and functional downstream modeling.
 
 Only **publicly available** datasets and tools are listed here.  

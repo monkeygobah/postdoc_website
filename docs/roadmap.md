@@ -1,7 +1,7 @@
 <!-- docs/roadmap.md -->
 # Roadmap
 
-This roadmap outlines the major phases of the UIC Global Oculomics Initiative. Each phase builds toward the central objective of creating the first multimodal foundational model for oculoplastic and craniofacial disease.
+This roadmap outlines the major phases of the Global Oculomics Initiative. Each phase builds toward the central objective of creating the first multimodal foundational model for oculoplastic and craniofacial disease.
 
 The project proceeds in five coordinated phases:
 

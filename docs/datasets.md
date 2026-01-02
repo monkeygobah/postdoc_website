@@ -2,7 +2,7 @@
 
 # Datasets
 
-This page provides an overview of all datasets used in the UIC Global Oculomics Initiative. Each dataset includes a brief description, role within the entire project, IRB considerations, and a single progress bar tracking its development. Milestones are updated continuously as the project evolves.
+This page provides an overview of all datasets used in the Global Oculomics Initiative. Each dataset includes a brief description, role within the entire project, IRB considerations, and a single progress bar tracking its development. Milestones are updated continuously as the project evolves.
 
 See the summary table to understand at a glance, and detailed information and progress tracking is available for each individual dataset below.
 

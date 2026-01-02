@@ -1,5 +1,5 @@
 <!-- docs/index.md -->
-# ** Global Oculomics Initiative**
+# **Global Oculomics Initiative**
 
 *Building the world’s first multimodal foundational model for oculoplastic and craniofacial disease.*
 

@@ -9,10 +9,10 @@ This page tracks all Glorbit deployments across global partner sites. Not every 
 | **Site**                 | **Country**  | **Tier**                                        | **Status**                                      | **IRB Status**                 | **Expected Enrollment** | **Collaborators**                              |
 |--------------------------|--------------|--------------------------------------------------|--------------------------------------------------|--------------------------------|--------------------------|-----------------------------------------------|
 | *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Live deployment; >100 patients enrolled          | Approved (USFQ 2025-037E)      | 200                      | Quina Care, USFQ, UIC                         |
-| *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Early-stage coordination                         | Amendment to 2025-037E in progress | 500                   | Shell Hospital, USFQ, UIC                     |
+| *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | IRB under review at USFQ                   |IRB under review at USFQ | 500                   | Shell Hospital, USFQ, UIC                     |
 | *Honduras*               | Honduras     | <span class="tier-badge tier2">Tier 2</span>     | In early discussion                              | IRB template drafted in Spanish | 500                      | Dr. Setabutr, Dr. Chan, Dr. MacIntosh         |
 | *Puno*                   | Peru         | <span class="tier-badge tier2">Tier 2</span>     | Contact made; early planning                     | IRB template drafted in Spanish | 500                      | Puno Regional Hospital, GW collaborators      |
-| *Thailand*               | Thailand     | <span class="tier-badge tier2">Tier 2</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
+| *Thailand*               | Thailand     | <span class="tier-badge tier2">Tier 2</span>     | Early Planning                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
 | *India*                  | India        | <span class="tier-badge tier2">Tier 2</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
 | *Labuan Bajo (Flores)*   | Indonesia    | <span class="tier-badge tier3">Tier 3</span>     | Outreach initiated                               | KEPK IRB required              | 500                      | Larrick network                              |
 | *Sierra Leone*           | Sierra Leone | <span class="tier-badge tier3">Tier 3</span>     | Initial conversations                            | Not yet drafted                | 500                      | Dr. Yeh, Dr. Setabutr, Dr. Chan               |
@@ -108,6 +108,7 @@ This section contains progress tracking for each active or prospective site. Exp
 
     <div data-progress>
     <ul>
+      <li>Dr. Setabutr initiate contact on the ground<li>
       <li>Contact made with local champion</li>
       <li>Hospital intent letter acquired</li>
       <li>IRB drafted</li>

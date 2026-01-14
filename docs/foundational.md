@@ -102,4 +102,7 @@ This project investigates how multi-view self-supervised learning can produce an
 
 ## Foundational Model
 
-Try and survive the ECCV work and dataset collection and then figure this out using insights from those
+??? fm-phase1 "Foundational Model"
+
+    try and survive ECCV stuff and figure this out using insights learned
+

@@ -43,3 +43,14 @@ Explore some side quests below that we have been thinking about, but just don't 
 
 
     **Skills Needed:** Python scraping, data wrangling, basic computer vision  
+
+
+??? sidequest-ct "OC vs IOI Classification"
+
+    There is a project opportunity to collaborate with Einstein University to try and train a model to predict between orbital cellulitis and idiopathic orbital inflammation. Einstein has a dataset of paired CT images and tabular data, and there is potential to collect a matching data set at UIC. Experiments could focus on deep learning / shallow methods for tabular data classification as well as multimodal classification pending dataset curation.
+
+    If interested, reach out to Georgie (gnahas2@uic.edu) for more information.
+
+    **Skills Needed:** Python scraping, data wrangling, basic computer vision  
+
+    

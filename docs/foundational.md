@@ -7,10 +7,10 @@ Two main AI projects are planned for this work. See both below for more informat
 
 This project investigates how multi-view self-supervised learning can produce anatomically faithful representations of the periocular region, and how different geometric interpretations of those representations (Euclidean vs hyperbolic) reflect hierarchical disease structure. The project is designed as a controlled precursor to later foundation-model development.
 
-??? eccv-phase1 "Phase 1 - Anatomical feasibility: landmark prediction from encoder embeddings"
+??? eccv-phase1 "Phase 1 - Landmark prediction from segmentation encoder embeddings"
 
     **Rationale:**  
-    Before introducing JEPA-style multi-view learning, we establish that existing segmentation encoders preserve sufficient anatomical information to support fine-grained geometric reasoning. Landmark prediction is used as a direct probe of learned anatomical representation .
+    Before introducing JEPA-style multi-view learning, we establish that existing segmentation encoders preserve sufficient anatomical information to support fine-grained geometric reasoning. Landmark prediction is used as a direct probe of learned anatomical representation.
 
     **Datasets:**  
     Chicago facial segmentation dataset (~900)  
@@ -28,29 +28,26 @@ This project investigates how multi-view self-supervised learning can produce an
     </ul>
     </div>
 
-
-??? eccv-phase2 "Phase 2 - Clinical landmark generation and validation"
+??? eccv-phase2 "Phase 2 — Hierarchical clinical label preparation"
 
     **Rationale:**  
-    JEPA training and downstream evaluation require anatomical supervision on clinical data. Since ground-truth segmentation masks are unavailable, landmarks are generated using an existing segmentation pipeline and manually validated to establish high-confidence anatomical labels.
+    For evaluation of hierarchical structure in learned representations we need a clinically meaningful label hierarchy We can also try and use existing segmentation pipelines to obtain pixel level anatomical landmarks.
 
     **Datasets:**  
-    Clinical imaging dataset (~300–5k images, depending on datasets used)
+    Clinical imaging dataset (~300–5k images, depending on subsets used)
 
     **Objective:**  
-    Produce a clinicaly validated landmark set suitable for evaluation.
+    Curate a clinically annotated evaluation dataset with explicit hierarchical disease labels.
 
     <div data-progress>
     <ul>
-    <li>Run pretrained segmentation model on clinical images with predefined hierarchical labels</li>
-    <li>Extract periorbital landmarks automatically</li>
-    <li>Manual validation for anatomical validity</li>
-    <li>Freeze landmark annotations for ECCV experiments</li>
+      <li>Define hierarchical disease labels in collaboration with clinicians</li>
+      <li>Run pretrained segmentation model for periorbital landmark verification</li>
     </ul>
     </div>
 
 
-??? eccv-phase3 "Phase 3 — Multi-view JEPA pretraining (left and right eyes as paired views)"
+??? eccv-phase3 "Phase 3 - Multi-view JEPA pretraining (left and right eyes as paired views)"
 
     **Rationale:**  
     Multi-view self-supervised learning is used to learn periocular representations that are stable across related views while preserving shared anatomical information. Left and right eyes from the same face provide a natural, label-free pairing for JEPA-style training.
@@ -76,7 +73,7 @@ This project investigates how multi-view self-supervised learning can produce an
     </div>
 
 
-??? eccv-phase4 "Phase 4 — Hierarchical structure analysis of JEPA embeddings"
+??? eccv-phase4 "Phase 4 - Hierarchical structure analysis of JEPA embeddings"
 
     **Rationale:**  
     Clinical disease labels are expected to exhibit hierarchical structure. Rather than enforcing hierarchy during representation learning, we evaluate how hierarchical structure is expressed when fixed JEPA embeddings are analyzed using different geometric distance models.

@@ -780,9 +780,9 @@
 <h2 id="eccv-project-multi-view-jepa-for-anatomical-representation-and-hierarchical-structure">ECCV Project: Multi-View JEPA for Anatomical Representation and Hierarchical Structure</h2>
 <p>This project investigates how multi-view self-supervised learning can produce anatomically faithful representations of the periocular region, and how different geometric interpretations of those representations (Euclidean vs hyperbolic) reflect hierarchical disease structure. The project is designed as a controlled precursor to later foundation-model development.</p>
 <details class="eccv-phase1">
-<summary>Phase 1 - Anatomical feasibility: landmark prediction from encoder embeddings</summary>
+<summary>Phase 1 - Landmark prediction from segmentation encoder embeddings</summary>
 <p><strong>Rationale:</strong><br />
-Before introducing JEPA-style multi-view learning, we establish that existing segmentation encoders preserve sufficient anatomical information to support fine-grained geometric reasoning. Landmark prediction is used as a direct probe of learned anatomical representation .</p>
+Before introducing JEPA-style multi-view learning, we establish that existing segmentation encoders preserve sufficient anatomical information to support fine-grained geometric reasoning. Landmark prediction is used as a direct probe of learned anatomical representation.</p>
 <p><strong>Datasets:</strong><br />
 Chicago facial segmentation dataset (~900)<br />
 Celeb segmentation dataset (~2k)</p>
@@ -798,24 +798,22 @@ Predict periorbital landmark coordinates (e.g., 2×K matrix) from frozen segment
 </div></p>
 </details>
 <details class="eccv-phase2">
-<summary>Phase 2 - Clinical landmark generation and validation</summary>
+<summary>Phase 2 — Hierarchical clinical label preparation</summary>
 <p><strong>Rationale:</strong><br />
-JEPA training and downstream evaluation require anatomical supervision on clinical data. Since ground-truth segmentation masks are unavailable, landmarks are generated using an existing segmentation pipeline and manually validated to establish high-confidence anatomical labels.</p>
+For evaluation of hierarchical structure in learned representations we need a clinically meaningful label hierarchy We can also try and use existing segmentation pipelines to obtain pixel level anatomical landmarks.</p>
 <p><strong>Datasets:</strong><br />
-Clinical imaging dataset (~300–5k images, depending on datasets used)</p>
+Clinical imaging dataset (~300–5k images, depending on subsets used)</p>
 <p><strong>Objective:</strong><br />
-Produce a clinicaly validated landmark set suitable for evaluation.</p>
+Curate a clinically annotated evaluation dataset with explicit hierarchical disease labels.</p>
 <p><div data-progress>
 <ul>
-<li>Run pretrained segmentation model on clinical images with predefined hierarchical labels</li>
-<li>Extract periorbital landmarks automatically</li>
-<li>Manual validation for anatomical validity</li>
-<li>Freeze landmark annotations for ECCV experiments</li>
+  <li>Define hierarchical disease labels in collaboration with clinicians</li>
+  <li>Run pretrained segmentation model for periorbital landmark verification</li>
 </ul>
 </div></p>
 </details>
 <details class="eccv-phase3">
-<summary>Phase 3 — Multi-view JEPA pretraining (left and right eyes as paired views)</summary>
+<summary>Phase 3 - Multi-view JEPA pretraining (left and right eyes as paired views)</summary>
 <p><strong>Rationale:</strong><br />
 Multi-view self-supervised learning is used to learn periocular representations that are stable across related views while preserving shared anatomical information. Left and right eyes from the same face provide a natural, label-free pairing for JEPA-style training.</p>
 <p><strong>Datasets:</strong><br />
@@ -836,7 +834,7 @@ Train a JEPA encoder using left–right eye image pairs (potentially both eyes a
 </div></p>
 </details>
 <details class="eccv-phase4">
-<summary>Phase 4 — Hierarchical structure analysis of JEPA embeddings</summary>
+<summary>Phase 4 - Hierarchical structure analysis of JEPA embeddings</summary>
 <p><strong>Rationale:</strong><br />
 Clinical disease labels are expected to exhibit hierarchical structure. Rather than enforcing hierarchy during representation learning, we evaluate how hierarchical structure is expressed when fixed JEPA embeddings are analyzed using different geometric distance models.</p>
 <p><strong>Datasets:</strong><br />

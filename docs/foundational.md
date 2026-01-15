@@ -21,10 +21,11 @@ This project investigates how multi-view self-supervised learning can produce an
 
     <div data-progress>
     <ul>
-    <li>Train segmentation model (UNET and DeepLabV3) on celeb</li>
-    <li>Extract encoder embeddings from segmentation model on cfd</li>
-    <li>Train MLP head for landmark regression</li>
-    <li>Quantitative evaluation and qualitative anatomical overlays </li>
+        <li class="done">Get dataset formatted
+        <li class="done">Train segmentation model (DeepLabV3) on celeb</li>
+        <li>Extract encoder embeddings from segmentation model on cfd</li>
+        <li>Train MLP head for landmark regression</li>
+        <li>Quantitative evaluation and qualitative anatomical overlays </li>
     </ul>
     </div>
 

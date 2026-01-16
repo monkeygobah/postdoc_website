@@ -23,8 +23,10 @@ This project investigates how multi-view self-supervised learning can produce an
     <ul>
         <li class="done">Get dataset formatted
         <li class="done">Train segmentation model (DeepLabV3) on celeb</li>
-        <li>Extract encoder embeddings from segmentation model on cfd</li>
-        <li>Train MLP head for landmark regression</li>
+        <li class="done">Extract encoder embeddings from segmentation model on cfd</li>
+        <li class="done">Train MLP head for landmark regression</li>
+        <li class="done">Evaluate different pooling methods for landmark regression and brief hyperparameter tuning</li>
+        <li> Make pretty figures of tuning MLP results</li>
         <li>Quantitative evaluation and qualitative anatomical overlays </li>
     </ul>
     </div>
@@ -35,15 +37,16 @@ This project investigates how multi-view self-supervised learning can produce an
     For evaluation of hierarchical structure in learned representations we need a clinically meaningful label hierarchy We can also try and use existing segmentation pipelines to obtain pixel level anatomical landmarks.
 
     **Datasets:**  
-    Clinical imaging dataset (~300–5k images, depending on subsets used)
+    Auxiliary Oculoplastics Dataset, Potential OOD evaluation on UIC CFC dataset if matching labels
 
     **Objective:**  
-    Curate a clinically annotated evaluation dataset with explicit hierarchical disease labels.
+    Define hiearchical labels in collaboration with clinicians and optionally define anatomical landmarks using existing segmentation pipelines
 
     <div data-progress>
     <ul>
       <li>Define hierarchical disease labels in collaboration with clinicians</li>
-      <li>Run pretrained segmentation model for periorbital landmark verification</li>
+      <li>Run pretrained segmentation model for prelim periorbital landmark prediction</li>
+      <li>Validate preliminary perioribtal landmarks</li>
     </ul>
     </div>
 

@@ -53,4 +53,15 @@ Explore some side quests below that we have been thinking about, but just don't 
 
     **Skills Needed:** Python scraping, data wrangling, basic computer vision  
 
+
+??? sidequest-seg "Segmentation Features for Downstream Ocular Tasks"
+
+    There is a project to investigate whether embeddings learned from periorbital segmentation models can serve as general-purpose features for downstream tasks. Using a segmentation backbone trained on external eye anatomy, experiments would evaluate performance on tasks such as periorbital landmark regression, distance prediction, and oculoplastic disease classification under both in-distribution and out-of-distribution settings.
+
+    The project would explore different feature extraction strategies assess how spatial information impacts generalization across datasets and downstream tasks
+
+    If interested, reach out to Georgie (gnahas2@uic.edu) for more information.
+
+    **Skills Needed:** Python, PyTorch, computer vision, experimental design
+
     

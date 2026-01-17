@@ -26,8 +26,8 @@ This project investigates how multi-view self-supervised learning can produce an
         <li class="done">Extract encoder embeddings from segmentation model on cfd</li>
         <li class="done">Train MLP head for landmark regression</li>
         <li class="done">Evaluate different pooling methods for landmark regression and brief hyperparameter tuning</li>
-        <li> Make pretty figures of tuning MLP results</li>
-        <li>Quantitative evaluation and qualitative anatomical overlays </li>
+        <li class="done">Make pretty figures of tuning MLP results</li>
+        <li class="done">Quantitative evaluation and qualitative anatomical overlays </li>
     </ul>
     </div>
 
@@ -99,7 +99,6 @@ This project investigates how multi-view self-supervised learning can produce an
       <li>Embed classification dataset using frozen JEPA encoder</li>
       <li>Define explicit label hierarchy in collaboration with clinicians</li>
       <li>Evaluate Euclidean hyperbolic distance-based retrieval and clustering</li>
-      <li>Evaluate </li>
     </ul>
     </div>
 

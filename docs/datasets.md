@@ -51,7 +51,7 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Build rotation toolkit</li>
         <li class="done">Create subset 1 (rotated) for all datasets</li>
         <li class="done">Develop inclusion criteria for S1</li>
-        <li>Sample images from imperfect datasets and pass to MF</li>
+        <li class="done">Sample images from imperfect datasets and pass to MF</li>
         <li>Obtain % noise from all imperfect datasets on sample</li>
         <li>Compute stats</li>
         <li>Decide which datasets need further CNN cleaning</li>
@@ -68,7 +68,7 @@ This section contains progress tracking for each dataset being worked on. Expand
     </ul>
     </div>
 
---
+---
 
 ??? dataset-uic "Historic CFC Dataset"
     30 years of imaging data from UIC craniofacial center. ~17000 images. Many patients have multiple images from different visits. Unknown disease labels and operations. Both full face and cropped eye images available and preprocessed

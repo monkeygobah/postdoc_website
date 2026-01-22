@@ -12,9 +12,10 @@ See the summary table to understand at a glance, and detailed information and pr
 
 | **Dataset**                                | **Category**              | **Role in Pipeline**                                           | **IRB**                                 | **Size**                   | **Status**                                |
 | ------------------------------------------ | ------------------------- | -------------------------------------------------------------- | --------------------------------------- | -------------------------- | ----------------------------------------- |
-| **Foundational Model Pretraining Dataset** | Pretraining (Open Source) | Large-scale pretraining for backbone encoder                   | Not required                            | ~2,000,000                 | In progress (curation + cleaning)         |
-| **UIC Retrospective Clinical Dataset**     | UIC Clinical              | Fine-tuning multiclass disease classifier; multimodal modeling | STUDY2024-1118 (Amendment pending)      | ~100,000                   | IRB amendment in preparation              |
+| **Foundational Model Pretraining Dataset** | Pretraining (Open Source) | Large-scale pretraining for backbone encoder                   | Not required                            | ~4,000,000                 | In progress (curation + cleaning)         |
+| **UIC Retrospective Clinical Dataset**     | UIC Clinical              | Fine-tuning multiclass disease classifier; multimodal modeling | STUDY2024-1118                          | ~100,000                   | Pending CCTS and CFOAP              |
 | **Auxiliary Oculoplastics Dataset**        | UIC Clinical              | Auxiliary fine-tuning; fallback set                            | STUDY2024-1118                          | ~1,000                     | Awaiting Transfer                         |
+| **Historic UIC CFC Dataset** | UIC Clinical (CFC) | Pretraining  | STUDY2024-1118 | ~17,000 images | Complete |
 | **UIC CFC Dataset**                        | UIC Clinical              | Fine-tuning + validation for craniofacial tasks                | STUDY2024-1118                          | ~1,500                     | Complete                                  |
 | **GVF Dataset**                            | UIC Clinical              | Functional regression/classification task                      | STUDY2024-1118                          | ~1,000                     | Complete                                  |
 | **Mt. Sinai CFC Dataset**                  | External OOD              | OOD craniofacial validation                                    | Mt. Sinai IRB + DUA with STUDY2024-1118 | Unknown                    | Early planning                            |
@@ -42,23 +43,36 @@ This section contains progress tracking for each dataset being worked on. Expand
     <div data-progress>
     <ul>
         <li class="done">Curate all candidate open-source face datasets</li>
-        <li>Transfer all datasets to the lab workstation with high-memory storage</li>
-        <li>Build subset training splits (random 5k samples per dataset)</li>
-        <li>Download small subsets and share with MF for review</li>
-        <li>Develop image-selection app for positive/negative labeling</li>
-        <li>Manually label ~2,500 images for classifier training</li>
-        <li>Evaluate distribution of positive/negative samples</li>
-        <li>Train local classifier and assess performance</li>
-        <li>Run cropping + rotation pipeline on a cleaned subset</li>
-        <li>Evaluate cropping accuracy across all positive images</li>
-        <li>Deploy classification + cropping pipeline to remote machine for full-scale cleaning</li>
-        <li>Run full dataset cleaning pipeline, tracking all crop coordinates</li>
-        <li>Assemble final cleaned dataset of frontal, aligned, forward-facing images</li>
-        <li>Predict periorbital distances for all datasets</li>
-        <li>Qualitatively validate all predicted distances and remove poor predictions</li>
+        <li class="done">Transfer batch 1 datasets to workstation </li>
+        <li class="done">Prep required datasets (UMD, Tufts, FIML)</li>
+        <li class="done">Do summary stats on large dataset</li>
+        <li class="done">Remove duplicate images and recount</li>
+        <li class="done">Obtain subset 0</li>
+        <li class="done">Build rotation toolkit</li>
+        <li class="done">Create subset 1 (rotated) for all datasets</li>
+        <li class="done">Develop inclusion criteria for S1</li>
+        <li>Sample images from imperfect datasets and pass to MF</li>
+        <li>Obtain % noise from all imperfect datasets on sample</li>
+        <li>Compute stats</li>
+        <li>Decide which datasets need further CNN cleaning</li>
+        <li>Create training data for these datasets and train/ validate cleaners</li>
+        <li>Deploy on datasets</li>
+        <li>Resample and regrade on cleaned datset (also auditing removed images and overall data loss)</li>
+        <li>Repeat above for Batch 2 (vggface2 and FFHQ)</li>
+        <li>Crop final images using log files to create subset 2 for each dataset</li>
+        <li>Summary statistics on Subset 2</li>
+        <li>Predict periorbital distances for Subset 2</li>
+        <li>Qualitatively validate all predicted distances and remove poor predictions (at minimum for FFHQ...)</li>
         <li>Prepare dataset index + metadata for pretraining</li>
+        <li>Ensure it is possible and easy to go from initial downloaded dataset to final product with software tools</li>
     </ul>
     </div>
+
+--
+
+??? dataset-uic "Historic CFC Dataset"
+    30 years of imaging data from UIC craniofacial center. ~17000 images. Many patients have multiple images from different visits. Unknown disease labels and operations. Both full face and cropped eye images available and preprocessed
+
 
 --- 
 

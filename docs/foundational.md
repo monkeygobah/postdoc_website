@@ -69,6 +69,7 @@ This project investigates how multi-view self-supervised learning can produce an
 
     <div data-progress>
     <ul>
+      <li>Obtain pretraining dataset</li>
       <li>Define left–right eye view construction from front-facing images</li>
       <li>Implement JEPA predictive objective with embedding-to-embedding targets</li>
       <li>Train JEPA encoder on Celeb dataset</li>

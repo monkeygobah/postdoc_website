@@ -78,7 +78,7 @@ This section contains progress tracking for each active or prospective site. Exp
 
 ---
 
-??? deploy-tier2 "Honduras — Tier 2"
+??? deploy-tier1 "Honduras — Tier 2"
     Sites in Honduras to be identified in collaboration with Dr. Setabutr, Dr. Chan, Sasha, and Dr. MacIntosh.
 
     **IRB:** To be initiated  

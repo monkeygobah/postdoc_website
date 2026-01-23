@@ -8,9 +8,9 @@ This page tracks all Glorbit deployments across global partner sites. Not every 
 
 | **Site**                 | **Country**  | **Tier**                                        | **Status**                                      | **IRB Status**                 | **Expected Enrollment** | **Collaborators**                              |
 |--------------------------|--------------|--------------------------------------------------|--------------------------------------------------|--------------------------------|--------------------------|-----------------------------------------------|
-| *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Live deployment; >100 patients enrolled          | Approved (USFQ 2025-037E)      | 200                      | Quina Care, USFQ, UIC                         |
+| *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Live deployment; >100 patients enrolled          | Approved (USFQ 2025-037E)      | 150                      | Quina Care, USFQ, UIC                         |
 | *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | IRB under review at USFQ                   |IRB under review at USFQ | 500                   | Shell Hospital, USFQ, UIC                     |
-| *Honduras*               | Honduras     | <span class="tier-badge tier2">Tier 2</span>     | In early discussion                              | IRB template drafted in Spanish | 500                      | Dr. Setabutr, Dr. Chan, Dr. MacIntosh         |
+| *Honduras*               | Honduras     | <span class="tier-badge tier1">Tier 1</span>     | In early discussion                              | IRB template drafted in Spanish | 150                      | Dr. Setabutr, Dr. Chan, Dr. MacIntosh         |
 | *Puno*                   | Peru         | <span class="tier-badge tier2">Tier 2</span>     | Contact made; early planning                     | IRB template drafted in Spanish | 500                      | Puno Regional Hospital, GW collaborators      |
 | *Thailand*               | Thailand     | <span class="tier-badge tier2">Tier 2</span>     | Early Planning                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
 | *India*                  | India        | <span class="tier-badge tier2">Tier 2</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
@@ -48,7 +48,7 @@ This section contains progress tracking for each active or prospective site. Exp
       <li class="done">IRB approved</li>
       <li class="done">Deployment of Glorbit</li>
       <li class="done">Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
+      <li class="done">Enrollment of 150 patients</li>
       <li>DUA with UIC</li>
       <li>Data analysis</li>
     </ul>
@@ -67,7 +67,7 @@ This section contains progress tracking for each active or prospective site. Exp
       <li class="done">Contact made with local champion and verbal agreement</li>
       <li class="done">Hospital intent letter acquired</li>
       <li class="done">Modification of existing IRB submitted</li>
-      <li>IRB amendment approved</li>
+      <li class="done">IRB amendment approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
       <li>Enrollment of 200 patients</li>

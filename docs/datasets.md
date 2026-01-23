@@ -52,15 +52,15 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Create subset 1 (rotated) for all datasets</li>
         <li class="done">Develop inclusion criteria for S1</li>
         <li class="done">Sample images from imperfect datasets and pass to MF</li>
-        <li>Obtain % noise from all imperfect datasets on sample</li>
-        <li>Compute stats</li>
-        <li>Decide which datasets need further CNN cleaning</li>
+        <li class="done">Obtain % noise from all imperfect datasets on sample</li>
+        <li class="done">Compute stats</li>
+        <li class="done">Decide which datasets need further CNN cleaning</li>
         <li>Create training data for these datasets and train/ validate cleaners</li>
         <li>Deploy on datasets</li>
         <li>Resample and regrade on cleaned datset (also auditing removed images and overall data loss)</li>
         <li>Repeat above for Batch 2 (vggface2 and FFHQ)</li>
         <li>Crop final images using log files to create subset 2 for each dataset</li>
-        <li>Summary statistics on Subset 2</li>
+        <li>Summary statistics on Subset 2 including sampling</li>
         <li>Predict periorbital distances for Subset 2</li>
         <li>Qualitatively validate all predicted distances and remove poor predictions (at minimum for FFHQ...)</li>
         <li>Prepare dataset index + metadata for pretraining</li>
@@ -73,7 +73,10 @@ This section contains progress tracking for each dataset being worked on. Expand
 ??? dataset-uic "Historic CFC Dataset"
     30 years of imaging data from UIC craniofacial center. ~17000 images. Many patients have multiple images from different visits. Unknown disease labels and operations. Both full face and cropped eye images available and preprocessed
 
-
+        <li class="done">Acquire from CFC</li>
+        <li class="done">Move in batches using TB storage</li>
+        <li class="done">Clean locally</li>
+        
 --- 
 
 ??? dataset-uic "UIC Retrospective Clinical Dataset — UIC Clinical"

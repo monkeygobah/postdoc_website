@@ -88,7 +88,7 @@ This section contains progress tracking for each active or prospective site. Exp
     <ul>
       <li class="done"> Contact made with local champion</li>
       <li>Hospital intent letter acquired</li>
-      <li>IRB drafted</li>
+      <li class="done">IRB drafted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>

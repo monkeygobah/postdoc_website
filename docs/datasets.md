@@ -55,12 +55,14 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Obtain % noise from all imperfect datasets on sample</li>
         <li class="done">Compute stats</li>
         <li class="done">Decide which datasets need further CNN cleaning</li>
-        <li>Create training data for these datasets and train/ validate cleaners</li>
+        <li class="done">Repeat above for Batch 2 (vggface2 and FFHQ)</li>
+        <li>Create training data for these datasets</li>
+        <li>train/ validate cleaners</li>
         <li>Deploy on datasets</li>
-        <li>Resample and regrade on cleaned datset (also auditing removed images and overall data loss)</li>
-        <li>Repeat above for Batch 2 (vggface2 and FFHQ)</li>
+        <li>Sample and grade on cleaned datset (also auditing removed images and overall data loss)</li>
         <li>Crop final images using log files to create subset 2 for each dataset</li>
         <li>Summary statistics on Subset 2 including sampling</li>
+        <li>Create Subset 2</li>
         <li>Predict periorbital distances for Subset 2</li>
         <li>Qualitatively validate all predicted distances and remove poor predictions (at minimum for FFHQ...)</li>
         <li>Prepare dataset index + metadata for pretraining</li>

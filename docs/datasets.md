@@ -56,6 +56,7 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Compute stats</li>
         <li class="done">Decide which datasets need further CNN cleaning</li>
         <li class="done">Repeat above for Batch 2 (vggface2 and FFHQ)</li>
+        <li>Regrade Neg images to create true negatives and true positives</li>
         <li>Create training data for these datasets</li>
         <li>train/ validate cleaners</li>
         <li>Deploy on datasets</li>
@@ -75,10 +76,14 @@ This section contains progress tracking for each dataset being worked on. Expand
 ??? dataset-uic "Historic CFC Dataset"
     30 years of imaging data from UIC craniofacial center. ~17000 images. Many patients have multiple images from different visits. Unknown disease labels and operations. Both full face and cropped eye images available and preprocessed
 
+    <div data-progress>
+    <ul>
         <li class="done">Acquire from CFC</li>
         <li class="done">Move in batches using TB storage</li>
         <li class="done">Clean locally</li>
-        
+    </ul>
+    </div>
+
 --- 
 
 ??? dataset-uic "UIC Retrospective Clinical Dataset — UIC Clinical"

@@ -8,8 +8,8 @@ This page tracks all Glorbit deployments across global partner sites. Not every 
 
 | **Site**                 | **Country**  | **Tier**                                        | **Status**                                      | **IRB Status**                 | **Expected Enrollment** | **Collaborators**                              |
 |--------------------------|--------------|--------------------------------------------------|--------------------------------------------------|--------------------------------|--------------------------|-----------------------------------------------|
-| *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Live deployment; >100 patients enrolled          | Approved (USFQ 2025-037E)      | 150                      | Quina Care, USFQ, UIC                         |
-| *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | IRB under review at USFQ                   |IRB under review at USFQ | 500                   | Shell Hospital, USFQ, UIC                     |
+| *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Collection finished- pending DUA          | Approved (USFQ 2025-037E)      | 150                      | Quina Care, USFQ, UIC                         |
+| *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Planning expedition with Dr. Bezemer and Larrick  | Approved (USFQ 2025-037E)  | 500                   | Shell Hospital, USFQ, UIC                     |
 | *Honduras*               | Honduras     | <span class="tier-badge tier1">Tier 1</span>     | In early discussion                              | IRB template drafted in Spanish | 150                      | Dr. Setabutr, Dr. Chan, Dr. MacIntosh         |
 | *Puno*                   | Peru         | <span class="tier-badge tier2">Tier 2</span>     | Contact made; early planning                     | IRB template drafted in Spanish | 500                      | Puno Regional Hospital, GW collaborators      |
 | *Thailand*               | Thailand     | <span class="tier-badge tier2">Tier 2</span>     | Early Planning                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
@@ -78,7 +78,7 @@ This section contains progress tracking for each active or prospective site. Exp
 
 ---
 
-??? deploy-tier1 "Honduras — Tier 2"
+??? deploy-tier1 "Honduras — Tier 1"
     Sites in Honduras to be identified in collaboration with Dr. Setabutr, Dr. Chan, Sasha, and Dr. MacIntosh.
 
     **IRB:** To be initiated  
@@ -89,6 +89,28 @@ This section contains progress tracking for each active or prospective site. Exp
       <li class="done"> Contact made with local champion</li>
       <li>Hospital intent letter acquired</li>
       <li class="done">IRB drafted</li>
+      <li>IRB approved</li>
+      <li>Deployment of Glorbit</li>
+      <li>Enrollment of 100 patients</li>
+      <li>Enrollment of 200 patients</li>
+      <li>DUA with UIC and IRB STUDY2024-1118</li>
+      <li>Data analysis</li>
+    </ul>
+    </div>
+
+---
+
+??? deploy-tier2 "Puno, Peru — Tier 2"
+    Sites in Peru to be identified in collaboration with GW collaborators.
+
+    **IRB:** To be initiated  
+    **Partners:** Puno regional hospital  
+
+    <div data-progress>
+    <ul>
+      <li>Contact made with local champion</li>
+      <li>Hospital intent letter acquired</li>
+      <li>IRB drafted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
@@ -143,27 +165,7 @@ This section contains progress tracking for each active or prospective site. Exp
     </ul>
     </div>
 
----
 
-??? deploy-tier2 "Puno, Peru — Tier 2"
-    Sites in Peru to be identified in collaboration with GW collaborators.
-
-    **IRB:** To be initiated  
-    **Partners:** Puno regional hospital  
-
-    <div data-progress>
-    <ul>
-      <li>Contact made with local champion</li>
-      <li>Hospital intent letter acquired</li>
-      <li>IRB drafted</li>
-      <li>IRB approved</li>
-      <li>Deployment of Glorbit</li>
-      <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
-      <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
-    </ul>
-    </div>
 
 ---
 

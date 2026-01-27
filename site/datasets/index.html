@@ -894,6 +894,7 @@
     <li class="done">Compute stats</li>
     <li class="done">Decide which datasets need further CNN cleaning</li>
     <li class="done">Repeat above for Batch 2 (vggface2 and FFHQ)</li>
+    <li>Regrade Neg images to create true negatives and true positives</li>
     <li>Create training data for these datasets</li>
     <li>train/ validate cleaners</li>
     <li>Deploy on datasets</li>
@@ -912,10 +913,13 @@
 <details class="dataset-uic">
 <summary>Historic CFC Dataset</summary>
 <p>30 years of imaging data from UIC craniofacial center. ~17000 images. Many patients have multiple images from different visits. Unknown disease labels and operations. Both full face and cropped eye images available and preprocessed</p>
-<pre><code>&lt;li class="done"&gt;Acquire from CFC&lt;/li&gt;
-&lt;li class="done"&gt;Move in batches using TB storage&lt;/li&gt;
-&lt;li class="done"&gt;Clean locally&lt;/li&gt;
-</code></pre>
+<p><div data-progress>
+<ul>
+    <li class="done">Acquire from CFC</li>
+    <li class="done">Move in batches using TB storage</li>
+    <li class="done">Clean locally</li>
+</ul>
+</div></p>
 </details>
 <hr />
 <details class="dataset-uic">

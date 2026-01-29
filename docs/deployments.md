@@ -11,8 +11,8 @@ This page tracks all Glorbit deployments across global partner sites. Not every 
 | *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Collection finished- pending DUA          | Approved (USFQ 2025-037E)      | 150                      | Quina Care, USFQ, UIC                         |
 | *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Planning expedition with Dr. Bezemer and Larrick  | Approved (USFQ 2025-037E)  | 500                   | Shell Hospital, USFQ, UIC                     |
 | *Honduras*               | Honduras     | <span class="tier-badge tier1">Tier 1</span>     | In early discussion                              | IRB template drafted in Spanish | 150                      | Dr. Setabutr, Dr. Chan, Dr. MacIntosh         |
+| *Thailand*               | Thailand     | <span class="tier-badge tier1">Tier 1</span>     | Early Planning                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
 | *Puno*                   | Peru         | <span class="tier-badge tier2">Tier 2</span>     | Contact made; early planning                     | IRB template drafted in Spanish | 500                      | Puno Regional Hospital, GW collaborators      |
-| *Thailand*               | Thailand     | <span class="tier-badge tier2">Tier 2</span>     | Early Planning                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
 | *India*                  | India        | <span class="tier-badge tier2">Tier 2</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
 | *Labuan Bajo (Flores)*   | Indonesia    | <span class="tier-badge tier3">Tier 3</span>     | Outreach initiated                               | KEPK IRB required              | 500                      | Larrick network                              |
 | *Sierra Leone*           | Sierra Leone | <span class="tier-badge tier3">Tier 3</span>     | Initial conversations                            | Not yet drafted                | 500                      | Dr. Yeh, Dr. Setabutr, Dr. Chan               |
@@ -100,6 +100,30 @@ This section contains progress tracking for each active or prospective site. Exp
 
 ---
 
+??? deploy-tier1 "Thailand — Tier 1"
+    Sites in Thailand to be identified in collaboration with Dr. Setabutr.
+
+    **IRB:** To be initiated  
+    **Partners:** TBD  
+
+    <div data-progress>
+    <ul>
+      <li class="done">Dr. Setabutr initiate contact on the ground<li>
+      <li class="done">Contact made with local champion</li>
+      <li>Hospital intent letter acquired</li>
+      <li>IRB drafted</li>
+      <li>IRB approved</li>
+      <li>Deployment of Glorbit</li>
+      <li>Enrollment of 100 patients</li>
+      <li>Enrollment of 200 patients</li>
+      <li>DUA with UIC and IRB STUDY2024-1118</li>
+      <li>Data analysis</li>
+    </ul>
+    </div>
+
+
+---
+
 ??? deploy-tier2 "Puno, Peru — Tier 2"
     Sites in Peru to be identified in collaboration with GW collaborators.
 
@@ -120,28 +144,6 @@ This section contains progress tracking for each active or prospective site. Exp
     </ul>
     </div>
 
----
-
-??? deploy-tier2 "Thailand — Tier 2"
-    Sites in Thailand to be identified in collaboration with Dr. Setabutr.
-
-    **IRB:** To be initiated  
-    **Partners:** TBD  
-
-    <div data-progress>
-    <ul>
-      <li>Dr. Setabutr initiate contact on the ground<li>
-      <li>Contact made with local champion</li>
-      <li>Hospital intent letter acquired</li>
-      <li>IRB drafted</li>
-      <li>IRB approved</li>
-      <li>Deployment of Glorbit</li>
-      <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
-      <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
-    </ul>
-    </div>
 
 ---
 

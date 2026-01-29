@@ -59,7 +59,7 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Regrade Neg images to create true negatives and true positives</li>
         <li class="done">Create training data for these datasets</li>
         <li class="done">train/ validate cleaners</li>
-        <li>Estimate error bounds for CNN deployment and establish thresholds</li>
+        <li class="done">Estimate error bounds for CNN deployment and establish thresholds</li>
         <li>Repeat sampling and subsampling steps for Batch 2</li>
         <li>Deploy on datasets to create Subset 2</li>
         <li>Crop final images using log files to create Subset 3 for each dataset</li>

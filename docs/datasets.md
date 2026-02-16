@@ -64,7 +64,7 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Deploy on datasets to create Subset 2</li>
         <li class="done">Crop final images using log files to create Subset 3 for each dataset</li>
         <li class="done">Create Subset 3 and do summary statistics</li>
-        <li>Predict periorbital distances on Subset 3 to make Subset 4</li>
+        <li class="done">Predict periorbital distances on Subset 3 to make Subset 4</li>
         <li class="done">Create Subset 5 (OS and OD)</li>
         <li>Some type of masked autoencoder (?) training (meet with sathya) using Subset 5 to show that we can learn good representations</li>
         <li>Ensure it is possible and easy to go from initial downloaded dataset to final product with software tools</li>

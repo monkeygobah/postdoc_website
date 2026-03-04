@@ -34,11 +34,11 @@ This page tracks the manuscript portfolio supporting the postdoctoral research p
 | Funding Source                         | Program | Amount | Status | Notes |
 |---|---|---|---|---|
 | OSV Fellowship                         | Fellowship                         | $10K–$100K | Submitted | Cross fingers toes and intestines |
-| NIH SBIR (with PRI)                    | Small Business Innovation Research | ~$300K     | Preparing | Industry collaboration |
-| NSF Grant                              | Research Grant                     | ~$500K     | Planned   | Will write proposal |
+| NIH SBIR (with PRI)                    | Small Business Innovation Research | ~$300K     | Preparing (04/01) | Industry collaboration |
+| NSF Grant                              | Research Grant                     | ~$500K     | Planned   (10/01) | Will write proposal |
 | Google Cloud Research Credits          | Cloud Compute Grant                | $5K        | Submitted | Compute support |
-| ISPB Grant                             | Research Grant                     | $5K        | Planned   | Limited spending flexibility |
-| UIC BME Grant                          | Research Grant                     | $2K        | Preparing |  |
+| ISPB Grant                             | Research Grant                     | $5K        | Planned   (05/01) | Limited spending flexibility |
+| UIC BME Grant                          | Research Grant                     | $2K        | Preparing (03/12) |  |
 
 
 <!-- 

@@ -32,7 +32,7 @@ This page tracks the manuscript portfolio supporting the postdoctoral research p
 # Grant and Funding Tracker
 
 | Funding Source                         | Program | Amount | Status | Notes |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | OSV Fellowship                         | Fellowship                         | $10K–$100K | Submitted | Cross fingers toes and intestines |
 | NIH SBIR (with PRI)                    | Small Business Innovation Research | ~$300K     | Preparing | Industry collaboration |
 | NSF Grant                              | Research Grant                     | ~$500K     | Planned   | Will write proposal |

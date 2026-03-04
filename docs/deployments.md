@@ -8,16 +8,23 @@ This page tracks all Glorbit deployments across global partner sites. Not every 
 
 | **Site**                 | **Country**  | **Tier**                                        | **Status**                                      | **IRB Status**                 | **Expected Enrollment** | **Collaborators**                              |
 |--------------------------|--------------|--------------------------------------------------|--------------------------------------------------|--------------------------------|--------------------------|-----------------------------------------------|
-| *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Collection finished- pending DUA          | Approved (USFQ 2025-037E)      | 150                      | Quina Care, USFQ, UIC                         |
-| *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Planning expedition with Dr. Bezemer and Larrick  | Approved (USFQ 2025-037E)  | 500                   | Shell Hospital, USFQ, UIC                     |
-| *Honduras*               | Honduras     | <span class="tier-badge tier1">Tier 1</span>     | In early discussion                              | IRB template drafted in Spanish | 150                      | Dr. Setabutr, Dr. Chan, Dr. MacIntosh         |
-| *Thailand*               | Thailand     | <span class="tier-badge tier1">Tier 1</span>     | Early Planning                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
-| *Puno*                   | Peru         | <span class="tier-badge tier1">Tier 1</span>     | Contact made; early planning                     | IRB template drafted in Spanish | 500                      | Puno Regional Hospital, GW collaborators      |
+| *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Collection finished- pending DUA                 | Approved (USFQ 2025-037E)      | 150                      | Quina Care, USFQ, UIC, JVDE                         |
+| *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Data collection active                           | Approved (USFQ 2025-037E)      | 500                      | Shell Hospital, USFQ, UIC, JB                     |
+| *San Benito Jose*        | Honduras     | <span class="tier-badge tier1">Tier 1</span>     | IRB Submitted to UNAH                            | IRB Submitted to UNAH          | 200                      | Dr. Setabutr, Dr. Chan, Dr. MacIntos, Dr. O'Connor         |
+| *Essalud Puno*           | Peru         | <span class="tier-badge tier1">Tier 1</span>     | Figuring out IRB submission process for Essalud Puno | IRB template drafted in Spanish | 500                 | Puno Regional Hospital, GW collab, Dr. Santiallana     |
+| *Ruamjairak*             | Thailand     | <span class="tier-badge tier1">Tier 1</span>     | Local docs coordinating submission               | IRB drafted                    | 500                      | Dr. Setabutr, Dr Soyci                      |
+| *Korle Bu Hospital- Eye Centre* | Ghana | <span class="tier-badge tier2">Tier 2</span>     | Identifying regulatory structure                 | IRB drafted                    | 500                      | Larrick network, ronnie shaw     |
+| *Ethiopia*               | Ethiopia     | <span class="tier-badge tier2">Tier 2</span>     | Setting Zoom call with Minister of Health        | IRB drafted                    | 500                      | Larrick network, anteneh, ethiopian ministry of health  |
+<!-- 
 | *Sierra Leone*           | Sierra Leone | <span class="tier-badge tier2">Tier 3</span>     | Initial conversations                            | Not yet drafted                | 500                      | Dr. Yeh, Dr. Setabutr, Dr. Chan               |
 | *India*                  | India        | <span class="tier-badge tier2">Tier 2</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
 | *Labuan Bajo (Flores)*   | Indonesia    | <span class="tier-badge tier3">Tier 3</span>     | Outreach initiated                               | KEPK IRB required              | 500                      | Larrick network                              |
 | *Bhutan*                 | Bhutan       | <span class="tier-badge tier3">Tier 3</span>     | Outreach initiated                               | Not yet drafted                | 500                      | Larrick network                              |
-| *Mongolia*               | Mongolia     | <span class="tier-badge tier3">Tier 3</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Chan                                     |
+| *Mongolia*               | Mongolia     | <span class="tier-badge tier3">Tier 3</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Chan                                     | -->
+
+<p style="color:#d32f2f; font-weight:bold; margin-top:10px;">
+We are no longer enrolling new hospitals into the deployment network at this time.
+</p>
 
 ### Interpretation of Tiers
 
@@ -49,8 +56,8 @@ This section contains progress tracking for each active or prospective site. Exp
       <li class="done">Deployment of Glorbit</li>
       <li class="done">Enrollment of 100 patients</li>
       <li class="done">Enrollment of 150 patients</li>
-      <li>DUA with UIC</li>
-      <li>Data analysis</li>
+      <li>DUA with UIC and IRB STUDY2024-1118</li>
+      <li>Manual grading performed</li>
     </ul>
     </div>
 
@@ -68,33 +75,30 @@ This section contains progress tracking for each active or prospective site. Exp
       <li class="done">Hospital intent letter acquired</li>
       <li class="done">Modification of existing IRB submitted</li>
       <li class="done">IRB amendment approved</li>
-      <li>Deployment of Glorbit</li>
+      <li class="done">Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
+      <li>Enrollment of 500 patients</li>
       <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
+      <li>Manual grading performed</li>
     </ul>
     </div>
 
 ---
 
 ??? deploy-tier1 "Honduras — Tier 1"
-    Sites in Honduras to be identified in collaboration with Dr. Setabutr, Dr. Chan, Sasha, and Dr. MacIntosh.
-
-    **IRB:** To be initiated  
-    **Partners:** TBD  
+    Site in Honduras to be identified in collaboration with Dr. Setabutr, Dr. Chan, Sasha, and Dr. MacIntosh
 
     <div data-progress>
     <ul>
       <li class="done"> Contact made with local champion</li>
-      <li>Hospital intent letter acquired</li>
+      <li class="done">Hospital intent letter acquired</li>
       <li class="done">IRB drafted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
+      <li>Enrollment of 500 patients</li>
       <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
+      <li>Manual grading performed</li>
     </ul>
     </div>
 
@@ -111,13 +115,14 @@ This section contains progress tracking for each active or prospective site. Exp
       <li class="done">Dr. Setabutr initiate contact on the ground<li>
       <li class="done">Contact made with local champion</li>
       <li>Hospital intent letter acquired</li>
-      <li>IRB drafted</li>
+      <li class="done">IRB drafted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
+      <li>Enrollment of 100 patients</li>
+      <li>Enrollment of 500 patients</li>
       <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
+      <li>Manual grading performed</li>
     </ul>
     </div>
 
@@ -138,59 +143,55 @@ This section contains progress tracking for each active or prospective site. Exp
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
+      <li>Enrollment of 100 patients</li>
+      <li>Enrollment of 500 patients</li>
       <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
+      <li>Manual grading performed</li>
     </ul>
     </div>
 
 
 ---
 
-??? deploy-tier2 "Sierra Leone — Tier 2"
-    Sites in Sierra Leone to be identified in collaboration with Dr. Setabutr, Dr. Yeh, and Dr. Chan.
-
-    **IRB:** To be initiated  
-    **Partners:** TBD  
+??? deploy-tier2 "Ethiopia — Tier 2"
+    Site in Ethiopia identified through Larrick network
 
     <div data-progress>
     <ul>
-      <li>Contact made with local champion</li>
+      <li class="done">Contact made with local champion</li>
       <li>Hospital intent letter acquired</li>
       <li>IRB drafted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
+      <li>Enrollment of 500 patients</li>
       <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
+      <li>Manual grading performed</li>
     </ul>
     </div>
 
 ---
 
-??? deploy-tier2 "India — Tier 2"
-    Sites in India to be identified in collaboration with Dr. Setabutr and Dr. Chan.
+??? deploy-tier2 "Ghana — Tier 2"
+    Site in Ghana identified through Larrick network
 
-    **IRB:** To be initiated  
-    **Partners:** TBD  
 
     <div data-progress>
     <ul>
-      <li>Contact made with local champion</li>
+      <li class="done">Contact made with local champion</li>
       <li>Hospital intent letter acquired</li>
       <li>IRB drafted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
-      <li>Enrollment of 200 patients</li>
+      <li>Enrollment of 500 patients</li>
       <li>DUA with UIC and IRB STUDY2024-1118</li>
-      <li>Data analysis</li>
+      <li>Manual grading performed</li>
     </ul>
     </div>
 
 
-
+<!-- 
 ---
 
 ??? deploy-tier3 "Mongolia — Tier 3"
@@ -256,7 +257,7 @@ This section contains progress tracking for each active or prospective site. Exp
       <li>DUA with UIC and IRB STUDY2024-1118</li>
       <li>Data analysis</li>
     </ul>
-    </div>
+    </div> -->
 
 
 ---

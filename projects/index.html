@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://monkeygobah.github.io/postdoc-site/roadmap/">
+        <link rel="canonical" href="https://monkeygobah.github.io/postdoc-site/projects/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../foundational/">
       
       
-        <link rel="next" href="../datasets/">
+        <link rel="next" href="../side_quests/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Roadmap - Global Oculomics</title>
+        <title>Project Tracker - Global Oculomics</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#roadmap" class="md-skip">
+        <a href="#papers" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Roadmap
+              Project Tracker
             
           </span>
         </div>
@@ -215,11 +215,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../roadmap/" class="md-tabs__link">
         
   
   
@@ -293,9 +291,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../projects/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -468,37 +468,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Roadmap
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
         
   
   
@@ -514,37 +487,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#roadmap-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Roadmap Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -634,10 +576,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../projects/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -653,6 +604,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -809,180 +761,205 @@
 
 
 
-<!-- docs/roadmap.md -->
-<h1 id="roadmap">Roadmap</h1>
-<p>This roadmap outlines the major phases of the Global Oculomics Initiative. Each phase builds toward the central objective of creating the first multimodal foundational model for oculoplastic and craniofacial disease.</p>
-<p>The project proceeds in five coordinated phases:</p>
+<h1 id="papers">Papers</h1>
+<p>This page tracks the manuscript portfolio supporting the postdoctoral research program. Papers are grouped by the pillar they support:</p>
 <hr />
-<!-- ## ****
+<h1 id="paper-summary">Paper Summary</h1>
+<table>
+<thead>
+<tr>
+<th>Paper</th>
+<th>Theme</th>
+<th>Status</th>
+<th>Target Venue</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Representation Geometry of SSL on Periocular Data</td>
+<td><span class="tier-badge tier1">Core AI</span></td>
+<td>Researching</td>
+<td>NeurIPS</td>
+<td>Must finish before large-scale pretraining</td>
+</tr>
+<tr>
+<td>Paired Clinical + Media Tab Dataset</td>
+<td><span class="tier-badge tier2">Data Engine</span></td>
+<td>Researching</td>
+<td>TBD</td>
+<td>Enables clinical finetuning</td>
+</tr>
+<tr>
+<td>Global Validation of AI Periorbital Measurements</td>
+<td><span class="tier-badge tier3">Global Deployment</span></td>
+<td>Researching</td>
+<td>npj Digital Medicine</td>
+<td>Global validation of predicted distances</td>
+</tr>
+<tr>
+<td>UIC-EYE-4M Dataset Paper</td>
+<td><span class="tier-badge tier2">Data Engine</span></td>
+<td>Writing</td>
+<td>Oph Sci</td>
+<td>Enables pretraining</td>
+</tr>
+<tr>
+<td>Foundational Model for External Eye Phenotyping</td>
+<td><span class="tier-badge tier1">Core AI</span></td>
+<td>Planned</td>
+<td>TBD</td>
+<td>Flagship scientific paper</td>
+</tr>
+<tr>
+<td>Global Deployment of AI-Enabled Ocular Phenotyping</td>
+<td><span class="tier-badge tier3">Global Deployment</span></td>
+<td>Planned</td>
+<td>TBD</td>
+<td>Larger final paper of CVPR workshop after all deployments finish</td>
+</tr>
+<tr>
+<td>Cross-Population Ocular Phenotype Survey (Optional)</td>
+<td><span class="tier-badge tier3">Global Deployment</span></td>
+<td>Optional</td>
+<td>TBD</td>
+<td>Interesting epidemiology from Glorbit data</td>
+</tr>
+<tr>
+<td>Periorbital Distances as Features for Disease Classification</td>
+<td><span class="tier-badge tier1">Core AI</span></td>
+<td>Under review</td>
+<td>Scientific Reports</td>
+<td>PhD paper</td>
+</tr>
+<tr>
+<td>Regulatory Blueprint for Global Health Data Collection</td>
+<td><span class="tier-badge tier3">Global Deployment</span></td>
+<td>Under Review</td>
+<td>CVPR Workshop</td>
+<td>Workshop paper formalizing ethical structure</td>
+</tr>
+<tr>
+<td>Glorbit: Low-Cost Global Phenotyping System</td>
+<td><span class="tier-badge tier3">Global Deployment</span></td>
+<td>Accepted</td>
+<td>JMIR Human Factors</td>
+<td>infrastructure paper</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Core AI</strong> — foundational scientific claims</li>
+<li><strong>Data Engine</strong> — datasets enabling AI research</li>
+<li><strong>Global Deployment</strong> — Glorbit infrastructure and real-world validation</li>
+</ul>
+<hr />
+<h1 id="grant-and-funding-tracker">Grant and Funding Tracker</h1>
+<p>| Funding Source                         | Program | Amount | Status | Notes |
+|---|---|---|---|---|---|
+| OSV Fellowship                         | Fellowship                         | $10K–$100K | Submitted | Cross fingers toes and intestines |
+| NIH SBIR (with PRI)                    | Small Business Innovation Research | ~$300K     | Preparing | Industry collaboration |
+| NSF Grant                              | Research Grant                     | ~$500K     | Planned   | Will write proposal |
+| Google Cloud Research Credits          | Cloud Compute Grant                | $5K        | Submitted | Compute support |
+| ISPB Grant                             | Research Grant                     | $5K        | Planned   | Limited spending flexibility |
+| UIC BME Grant                          | Research Grant                     | $2K        | Preparing |  |</p>
+<!-- 
+---
+# Pillar A — Core AI
 
-| Phase | Focus Areas | Key Outputs | Status |
-|-------|-------------|-------------|--------|
-| *Phase 1 — Dataset Assembly* | FM pretraining dataset; UIC retrospective dataset | Large-scale cleaned datasets; PD extraction at scale; multimodal dataset index | In Progress |
-| *Phase 2 — Global Deployments* | Ecuador, Thailand, India, Peru, Africa deployments; IRB; site onboarding | Standardized acquisition workflows; prospective datasets; harmonization across sites | In Progress |
-| *Phase 3 — Multimodal Pretraining* | Multimodal backbone; PD-integrated encoder | Multimodal embedding space; ablation studies; pretraining reports | Awaiting completion of Phase 1 |
-| *Phase 4 — Fine-Tuning* | Disease classification; craniofacial tasks; GVF prediction | Downstream task performance benchmarks; clinical modeling results | Begins after Phase 3 |
-| *Phase 5 — Validation & Manuscripts* | Internal + external validation; cross-site evaluation | Foundational model paper; deployment paper; downstream task manuscripts | Ongoing (late project) |
+---
+
+### Representation Geometry of Self-Supervised Learning on Periocular Data
+
+**Tentative title**
+
+Representation Geometry of Self-Supervised Learning in Periocular Image Models
+
+**Description**
+
+This paper investigates the geometric structure of embeddings learned through self-supervised learning methods on periocular datasets. The work analyzes embedding isotropy, clustering behavior, and the relationship between representation structure and downstream task performance.
+
+**Role in the Program**
+
+This paper establishes the theoretical and empirical foundation for representation learning in periocular datasets. The findings guide the architecture and training design of the external eye foundation model.
+
+---
+
+### Foundational Model for External Eye Phenotyping
+
+**Tentative title**
+
+A Foundation Model for External Eye Phenotyping
+
+**Description**
+
+This work introduces a large-scale representation model trained on millions of periocular images. The model is designed to learn generalized visual features of the external eye that can support downstream tasks including disease classification, biometric analysis, and clinical phenotyping.
+
+**Role in the Program**
+
+This is the flagship scientific contribution of the program. It integrates the dataset pipeline, representation learning experiments, and clinical datasets to produce a reusable foundational model for external eye analysis.
 
 --- -->
 
-<h2 id="roadmap-overview">Roadmap Overview</h2>
-<p>See below for details on each specific phase</p>
-<details class="roadmap-phase" open="open">
-<summary>Phase 1 — Dataset Assembly</summary>
-<p>Dataset development is the rate-limiting step for all downstream work. Two datasets must be completed before pretraining begins.</p>
-<p><strong>Focus Areas</strong></p>
-<ul>
-<li>Foundational Model pretraining dataset (open-source)</li>
-<li>UIC retrospective clinical dataset</li>
-</ul>
-<p><strong>Key Outputs</strong></p>
-<ul>
-<li>Cleaned, large-scale pretraining dataset  </li>
-<li>PD extraction at scale  </li>
-<li>Multimodal dataset index</li>
-</ul>
-<p><strong>Status:</strong> In Progress</p>
-</details>
+<h1 id="pillar-b-data-engine">Pillar B — Data Engine</h1>
 <hr />
-<details class="roadmap-phase" open="open">
-<summary>Phase 2 — Global Deployments</summary>
-<p>Global data collection requires long lead times due to IRB processes, site logistics, and training. This phase runs in parallel with Phase 1.</p>
-<p><strong>Goals</strong></p>
-<ul>
-<li>Deploy Glorbit across 3–4 international sites  </li>
-<li>Assemble prospective, globally diverse datasets  </li>
-<li>Enable cross-site harmonization and external validation  </li>
-</ul>
-<p><strong>Status:</strong> In Progress</p>
-</details>
+<h3 id="uic-eye-4m-dataset">UIC-EYE-4M Dataset</h3>
+<p><strong>Tentative title</strong></p>
+<p>UIC-EYE-4M: A Large-Scale Dataset for Periocular Representation Learning</p>
+<p><strong>Description</strong></p>
+<p>This paper introduces a large curated dataset of periocular images assembled from multiple public sources. The dataset includes standardized preprocessing, deduplication, and quality control procedures designed to support representation learning experiments.</p>
+<p><strong>Role in the Program</strong></p>
+<p>This dataset provides the primary training corpus used for representation learning and foundational model development. It enables large-scale self-supervised training and supports future benchmarking efforts in periocular AI.</p>
 <hr />
-<details class="roadmap-phase" open="open">
-<summary>Phase 3 — Multimodal Pretraining</summary>
-<p>Pretraining involves learning a multimodal backbone that binds image embeddings and periorbital distance features.</p>
-<p><strong>Dependencies</strong></p>
-<ul>
-<li>Completed pretraining dataset  </li>
-<li>Validated PD extraction pipeline  </li>
-</ul>
-<p><strong>Key Outputs</strong></p>
-<ul>
-<li>Multimodal embedding space  </li>
-<li>Ablation studies  </li>
-<li>Pretraining technical report  </li>
-</ul>
-<p><strong>Status:</strong> Begins after Phase 1 completion</p>
-</details>
+<h3 id="paired-clinical-media-tab-dataset">Paired Clinical + Media Tab Dataset</h3>
+<p><strong>Tentative title</strong></p>
+<p>A Paired Clinical and Imaging Dataset for Ocular Phenotyping</p>
+<p><strong>Description</strong></p>
+<p>This dataset links clinical ophthalmic metadata with facial and periocular imaging data extracted from electronic medical records. The resulting dataset enables research into relationships between ocular imaging features and clinical phenotypes.</p>
+<p><strong>Role in the Program</strong></p>
+<p>This dataset enables clinical finetuning experiments and supports future research on biomarker discovery and disease prediction using external eye imagery.</p>
 <hr />
-<details class="roadmap-phase" open="open">
-<summary>Phase 4 — Fine-Tuning on Clinical and Functional Tasks</summary>
-<p>After pretraining, the backbone is adapted to downstream oculoplastics and craniofacial tasks.</p>
-<p><strong>Downstream Tasks</strong></p>
-<ul>
-<li>Multiclass disease classification  </li>
-<li>Craniofacial disorder classification  </li>
-<li>GVF regression/classification  </li>
-<li>Ptosis outcomes modeling  </li>
-<li>Lesion / eyelid pathology classification  </li>
-</ul>
-<p><strong>Status:</strong> Begins after Phase 3</p>
-</details>
+<h1 id="pillar-c-global-deployment">Pillar C — Global Deployment</h1>
 <hr />
-<details class="roadmap-phase" open="open">
-<summary>Phase 5 — Validation, Deployment, and Manuscripts</summary>
-<p>This phase focuses on internal/external validation, clinical interpretation, and manuscript writing.</p>
-<p><strong>Internal Validation</strong></p>
-<ul>
-<li>UIC datasets  </li>
-<li>Craniofacial datasets  </li>
-<li>Longitudinal subsets  </li>
-</ul>
-<p><strong>External Validation</strong></p>
-<ul>
-<li>Global deployments  </li>
-<li>Partner hospitals (Mt. Sinai, others)</li>
-</ul>
-<p><strong>Key Outputs</strong></p>
-<ul>
-<li>See <a href="../publications/">publications page</a> for more information.</li>
-</ul>
-<p><strong>Status:</strong> Ongoing (late project)</p>
-</details>
-<!-- 
-## **Phase 1 — Dataset Assembly**
-
-Dataset development is the rate-limiting step for all downstream work. Two datasets are essential before pretraining can begin:
-
-### *1. Foundational Model Pretraining Dataset (Open Source)*
-- Provides large-scale image diversity  
-- Enables periorbital distance extraction at massive scale  
-- Forms the backbone for multimodal pretraining  
-
-### *2. UIC Retrospective Clinical Dataset*
-- High-quality labeled dataset for supervised fine-tuning  
-- Supports multiclass disease classification and functional outcome prediction  
-
-See [datasets page](datasets.md) for more information.
-
-
----
-
-## **Phase 2 — Global Deployments**
-
-Global data collection requires long lead times due to IRB processes, site coordination, and training. Deployment efforts begin early and continue throughout the project. This phase runs in parallel with Phase 1.
-
-### *Goals*
-- Deploy Glorbit across 3–4 international sites  
-- Collect diverse, multinational datasets  
-- Enable cross-site harmonization and external validation  
-
-See [deployments page](deployments.md) for more information.
-
----
-
-## **Phase 3 — Multimodal Pretraining**
-
-Pretraining begins once Phase 1 is largely complete. Using the large open-source dataset, a multimodal backbone is trained to integrate image representations with periorbital distance measurements. Details of this phase are actively being investigated to enable scientific developments from both an AI and clinical perspective.
-
-*Dependencies:*  
-Requires finalized pretraining dataset + validated PD extraction pipeline.
-
-See [foundational model page](foundational.md) for more information.
-
-
----
-
-## **Phase 4 — Fine-Tuning on Clinical and Functional Tasks**
-
-After pretraining, the backbone is adapted to specific oculoplastic and craniofacial applications using curated datasets.
-
-### *Downstream Tasks*
-- Multiclass disease classification  
-- Craniofacial disorder classification  
-- GVF regression / classification  
-- Ptosis outcomes  
-- Lesion and eyelid pathology classification 
-
-Finalization of downstream tasks will procede after retrosepctive datasets have been fully assembled.
-
----
-
-## **Phase 5 — Validation, Deployment, and Manuscripts**
-
-This phase includes internal and external validation, clinical interpretation, and manuscript preparation.
-
-### *Internal Validation*
-- UIC datasets  
-- Craniofacial datasets  
-- Longitudinal subsets  
-
-### *External Validation*
-- Global deployment sites  
-- Partner hospitals (Mt. Sinai, others)  
-
-### *Manuscripts*
-
-See [publications page](publications.md) for more information. -->
+<h3 id="glorbit-low-cost-global-phenotyping-system">Glorbit: Low-Cost Global Phenotyping System</h3>
+<p><strong>Tentative title</strong></p>
+<p>Glorbit: A Low-Cost Platform for Global Ocular Phenotyping</p>
+<p><strong>Description</strong></p>
+<p>This paper describes the design and implementation of the Glorbit platform, a lightweight system for capturing standardized periocular images and associated clinical metadata in diverse clinical environments.</p>
+<p><strong>Role in the Program</strong></p>
+<p>Glorbit provides the infrastructure necessary to collect prospective global datasets used for downstream validation and clinical research.</p>
+<hr />
+<h3 id="regulatory-blueprint-for-global-health-data-collection">Regulatory Blueprint for Global Health Data Collection</h3>
+<p><strong>Tentative title</strong></p>
+<p>A Regulatory Framework for Cross-Border Ocular Imaging Research</p>
+<p><strong>Description</strong></p>
+<p>This work describes a hub-and-spoke ethical governance framework enabling cross-border data collection for minimal-risk medical imaging research. The framework outlines IRB oversight structures, data transfer considerations, and practical deployment strategies.</p>
+<p><strong>Role in the Program</strong></p>
+<p>This paper establishes the governance model enabling global data collection and supports the expansion of Glorbit deployments across multiple countries.</p>
+<hr />
+<h3 id="global-deployment-of-ai-enabled-ocular-phenotyping">Global Deployment of AI-Enabled Ocular Phenotyping</h3>
+<p><strong>Tentative title</strong></p>
+<p>Global Deployment of AI-Enabled Ocular Phenotyping Infrastructure</p>
+<p><strong>Description</strong></p>
+<p>This paper documents the operational deployment of the Glorbit platform across multiple clinical sites and countries. The study evaluates deployment logistics, operational reliability, and data integrity across heterogeneous environments.</p>
+<p><strong>Role in the Program</strong></p>
+<p>This work demonstrates that the data collection infrastructure can scale internationally, validating the feasibility of global ocular phenotyping research.</p>
+<hr />
+<h3 id="human-level-validation-of-ai-periorbital-measurements">Human-Level Validation of AI Periorbital Measurements</h3>
+<p><strong>Tentative title</strong></p>
+<p>Human-Level Agreement in AI-Derived Periorbital Measurements</p>
+<p><strong>Description</strong></p>
+<p>This study evaluates agreement between AI-derived periorbital measurements and human graders using manually measured annotations. The evaluation spans globally collected clinical images from multiple sites.</p>
+<p><strong>Role in the Program</strong></p>
+<p>This paper validates the measurement pipeline underlying the Glorbit system and establishes the reliability of AI-derived periorbital anatomical features.</p>
+<hr />
+<h3 id="cross-population-ocular-phenotype-survey-optional">Cross-Population Ocular Phenotype Survey (Optional)</h3>
+<p><strong>Tentative title</strong></p>
+<p>Cross-Population Variation in Ocular Phenotypes</p>
+<p><strong>Description</strong></p>
+<p>Using prospectively collected Glorbit data, this study examines variation in ocular anatomical features and disease history across populations from multiple geographic regions.</p>
+<p><strong>Role in the Program</strong></p>
+<p>This work provides descriptive epidemiological context for global ocular phenotypes and demonstrates the scientific value of prospective global data collection.</p>
 
 
 

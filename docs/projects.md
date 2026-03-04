@@ -77,7 +77,7 @@ This work introduces a large-scale representation model trained on millions of p
 
 This is the flagship scientific contribution of the program. It integrates the dataset pipeline, representation learning experiments, and clinical datasets to produce a reusable foundational model for external eye analysis.
 
---- -->
+---
 
 # Pillar B — Data Engine
 
@@ -195,4 +195,4 @@ Using prospectively collected Glorbit data, this study examines variation in ocu
 
 **Role in the Program**
 
-This work provides descriptive epidemiological context for global ocular phenotypes and demonstrates the scientific value of prospective global data collection.
+This work provides descriptive epidemiological context for global ocular phenotypes and demonstrates the scientific value of prospective global data collection. -->

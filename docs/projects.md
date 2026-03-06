@@ -7,18 +7,18 @@ This page tracks the manuscript portfolio supporting the postdoctoral research p
 
 # Paper Summary
 
-| Paper                                                       | Theme                                                  | Status         | Target Venue                         | Notes |
-|---|---|---|---|---|
-| Representation Geometry of SSL on Periocular Data           | <span class="tier-badge tier1">Core AI</span>           | Researching    | NeurIPS                              | Must finish before large-scale pretraining |
-| Paired Clinical + Media Tab Dataset                         | <span class="tier-badge tier2">Data Engine</span>       | Researching    | TBD                                  | Enables clinical finetuning                |
-| Global Validation of AI Periorbital Measurements            | <span class="tier-badge tier3">Global Deployment</span> | Researching    | npj Digital Medicine                 | Global validation of predicted distances   |
-| UIC-EYE-4M Dataset Paper                                    | <span class="tier-badge tier2">Data Engine</span>       | Writing        | Oph Sci                              | Enables pretraining                        |
-| Foundational Model for External Eye Phenotyping             | <span class="tier-badge tier1">Core AI</span>           | Planned        | TBD                                  | Flagship scientific paper                  |
-| Global Deployment of AI-Enabled Ocular Phenotyping          | <span class="tier-badge tier3">Global Deployment</span> | Planned        | TBD                                  | Larger final paper of CVPR workshop after all deployments finish |
-| Cross-Population Ocular Phenotype Survey (Optional)         | <span class="tier-badge tier3">Global Deployment</span> | Optional       | TBD                                  | Interesting epidemiology from Glorbit data |
-| Periorbital Distances as Features for Disease Classification| <span class="tier-badge tier1">Core AI</span>           | Under review   | Scientific Reports                   | PhD paper                                  |
-| Regulatory Blueprint for Global Health Data Collection      | <span class="tier-badge tier3">Global Deployment</span> | Under Review   | CVPR Workshop                        | Workshop paper formalizing ethical structure 
-| Glorbit: Low-Cost Global Phenotyping System                 | <span class="tier-badge tier3">Global Deployment</span> | Accepted       | JMIR Human Factors                   | infrastructure paper                       |
+| Paper                                                       | Theme                                             | Status         | Target Venue                         | Notes | Core Collaborators
+|---|---|---|---|---| ---|
+| Representation Geometry of SSL on Periocular Data           | <span class="tier-badge tier1">Core AI</span>     | Researching    | NeurIPS                              | Must finish before large-scale pretraining | Sathya
+| Paired Clinical + Media Tab Dataset                         | <span class="tier-badge tier2">Data Engine</span> | Researching    | TBD                                  | Enables clinical finetuning                | Setabutr, Tran, Chan, CCTS, UIH
+| Global Validation of AI Periorbital Measurements            | <span class="tier-badge tier3">Global</span>      | Researching    | npj Digital Medicine                 | Global validation of predicted distances   | Larrick, Michelle, Christian (?)
+| UIC-EYE-4M Dataset Paper                                    | <span class="tier-badge tier2">Data Engine</span> | Writing        | Oph Sci                              | Enables pretraining                        | Michelle, Sanjay, Sathya
+| Foundational Model for External Eye Phenotyping             | <span class="tier-badge tier1">Core AI</span>     | Planned        | TBD                                  | Flagship scientific paper                  | Sathya
+| Global Deployment of AI-Enabled Ocular Phenotyping          | <span class="tier-badge tier3">Global</span>      | Planned        | TBD                                  | Larger final paper of CVPR workshop        | Setabutr, Bhavana, Sathya, Tran 
+| Cross-Population Ocular Phenotype Survey (Optional)         | <span class="tier-badge tier3">Global</span>      | Optional       | TBD                                  | Interesting epidemiology from Glorbit data | Larrick
+| Periorbital Distances as Features for Disease Classification| <span class="tier-badge tier1">Core AI</span>     | Under review   | Scientific Reports                   | PhD paper                                  | Tran
+| Regulatory Blueprint for Global Health Data Collection      | <span class="tier-badge tier3">Global</span>      | Under Review   | CVPR Workshop                        | Workshop paper formalizing ethical structure | Bhavana, Setabutr, Tran 
+| Glorbit: Low-Cost Global Phenotyping System                 | <span class="tier-badge tier3">Global</span>      | Accepted       | JMIR Human Factors                   | infrastructure paper                       | 
 
 
 - **Core AI** — foundational scientific claims

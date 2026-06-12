@@ -10,11 +10,9 @@ This page tracks all Glorbit deployments across global partner sites. Not every 
 |--------------------------|--------------|--------------------------------------------------|--------------------------------------------------|--------------------------------|--------------------------|-----------------------------------------------|
 | *Quina Care*             | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Collection finished- pending DUA                 | Approved (USFQ 2025-037E)      | 150                      | Quina Care, USFQ, UIC, JVDE                         |
 | *Shell Hospital*         | Ecuador      | <span class="tier-badge tier1">Tier 1</span>     | Data collection active                           | Approved (USFQ 2025-037E)      | 500                      | Shell Hospital, USFQ, UIC, JB                     |
-| *San Benito Jose*        | Honduras     | <span class="tier-badge tier1">Tier 1</span>     | IRB Submitted to UNAH                            | IRB Submitted to UNAH          | 200                      | Dr. Setabutr, Dr. Chan, Dr. MacIntos, Dr. O'Connor         |
-| *Essalud Puno*           | Peru         | <span class="tier-badge tier1">Tier 1</span>     | Figuring out IRB submission process for Essalud Puno | IRB template drafted in Spanish | 500                 | Puno Regional Hospital, GW collab, Dr. Santiallana     |
-| *Ruamjairak*             | Thailand     | <span class="tier-badge tier1">Tier 1</span>     | Local docs coordinating submission               | IRB drafted                    | 500                      | Dr. Setabutr, Dr Soyci                      |
-| *Korle Bu Hospital- Eye Centre* | Ghana | <span class="tier-badge tier2">Tier 2</span>     | Identifying regulatory structure                 | IRB drafted                    | 500                      | Larrick network, ronnie shaw     |
-| *Ethiopia*               | Ethiopia     | <span class="tier-badge tier2">Tier 2</span>     | Setting Zoom call with Minister of Health        | IRB drafted                    | 500                      | Larrick network, anteneh, ethiopian ministry of health  |
+| *San Benito Jose*        | Honduras     | <span class="tier-badge tier1">Tier 1</span>     | Deployment pending                               | Approved (Registro N.º IRB 00003070)     | 200               | Dr. Setabutr, Dr. Chan, Dr. MacIntos, Dr. O'Connor         |
+| *Ruamjairak*             | Thailand     | <span class="tier-badge tier1">Tier 1</span>     | Final stages of review                           | Submitted                      | 500                       | Dr. Setabutr, Dr Soyci                      |
+| *Ethiopia*               | Ethiopia     | <span class="tier-badge tier1">Tier 1</span>     | Setting Zoom call with Minister of Health        | Submitted                      | 500                      | Larrick network, anteneh, ethiopian ministry of health  |
 <!-- 
 | *Sierra Leone*           | Sierra Leone | <span class="tier-badge tier2">Tier 3</span>     | Initial conversations                            | Not yet drafted                | 500                      | Dr. Yeh, Dr. Setabutr, Dr. Chan               |
 | *India*                  | India        | <span class="tier-badge tier2">Tier 2</span>     | High interest                                    | Not yet drafted                | 500                      | Dr. Setabutr, Dr. Chan                        |
@@ -56,7 +54,7 @@ This section contains progress tracking for each active or prospective site. Exp
       <li class="done">Deployment of Glorbit</li>
       <li class="done">Enrollment of 100 patients</li>
       <li class="done">Enrollment of 150 patients</li>
-      <li>DUA with UIC and IRB STUDY2024-1118</li>
+      <li class="done">DUA with UIC and IRB STUDY2024-1118</li>
       <li>Manual grading performed</li>
     </ul>
     </div>
@@ -87,13 +85,14 @@ This section contains progress tracking for each active or prospective site. Exp
 
 ??? deploy-tier1 "Honduras — Tier 1"
     Site in Honduras to be identified in collaboration with Dr. Setabutr, Dr. Chan, Sasha, and Dr. MacIntosh
+    **IRB:** Registro N.º IRB 00003070  
 
     <div data-progress>
     <ul>
       <li class="done"> Contact made with local champion</li>
       <li class="done">Hospital intent letter acquired</li>
       <li class="done">IRB drafted</li>
-      <li>IRB approved</li>
+      <li class="done">IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
       <li>Enrollment of 500 patients</li>
@@ -114,8 +113,9 @@ This section contains progress tracking for each active or prospective site. Exp
     <ul>
       <li class="done">Dr. Setabutr initiate contact on the ground<li>
       <li class="done">Contact made with local champion</li>
-      <li>Hospital intent letter acquired</li>
+      <li class="done">Hospital intent letter acquired</li>
       <li class="done">IRB drafted</li>
+      <li class="done">IRB Submitted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
@@ -126,7 +126,7 @@ This section contains progress tracking for each active or prospective site. Exp
     </ul>
     </div>
 
-
+<!-- 
 ---
 
 ??? deploy-tier1 "Puno, Peru — Tier 1"
@@ -148,19 +148,19 @@ This section contains progress tracking for each active or prospective site. Exp
       <li>DUA with UIC and IRB STUDY2024-1118</li>
       <li>Manual grading performed</li>
     </ul>
-    </div>
+    </div> -->
 
 
 ---
 
-??? deploy-tier2 "Ethiopia — Tier 2"
+??? deploy-tier1 "Ethiopia — Tier 1"
     Site in Ethiopia identified through Larrick network
 
     <div data-progress>
     <ul>
       <li class="done">Contact made with local champion</li>
-      <li>Hospital intent letter acquired</li>
-      <li>IRB drafted</li>
+      <li class="done">Hospital intent letter acquired</li>
+      <li class="done">IRB drafted</li>
       <li>IRB approved</li>
       <li>Deployment of Glorbit</li>
       <li>Enrollment of 100 patients</li>
@@ -170,7 +170,7 @@ This section contains progress tracking for each active or prospective site. Exp
     </ul>
     </div>
 
----
+<!-- ---
 
 ??? deploy-tier2 "Ghana — Tier 2"
     Site in Ghana identified through Larrick network
@@ -189,7 +189,7 @@ This section contains progress tracking for each active or prospective site. Exp
       <li>Manual grading performed</li>
     </ul>
     </div>
-
+ -->
 
 <!-- 
 ---

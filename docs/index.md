@@ -27,7 +27,7 @@ It provides:
 - A **[roadmap](roadmap.md)** outlining major research phases and milestones  
 - Detailed descriptions of **[datasets](datasets.md)** under development  
 - Documentation for **[global deployments](deployments.md)** and field workflows  
-- Progress towards **[multimodal foundational model pipeline](foundational.md)**  
+- Progress on **[all projects](projects.md)**  
 - A catalog of **[tools, repositories, and computational assets](assets.md)**  
 - A list of **[publications from this line of work](publications.md)**  
 - How to get involved as a **[new collaborator](collaborate.md)** 

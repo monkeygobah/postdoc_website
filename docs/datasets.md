@@ -12,14 +12,12 @@ See the summary table to understand at a glance, and detailed information and pr
 
 | **Dataset**                                | **Category**              | **Role in Pipeline**                                           | **IRB**                                 | **Size**                   | **Status**                                |
 | ------------------------------------------ | ------------------------- | -------------------------------------------------------------- | --------------------------------------- | -------------------------- | ----------------------------------------- |
-| **Foundational Model Pretraining Dataset** | Pretraining (Open Source) | Large-scale pretraining for backbone encoder                   | Not required                            | ~4,000,000                 | In progress (curation + cleaning)         |
-| **UIC Retrospective Clinical Dataset**     | UIC Clinical              | Fine-tuning multiclass disease classifier; multimodal modeling | STUDY2024-1118                          | ~100,000                   | Pending CCTS and CFOAP              |
-| **Auxiliary Oculoplastics Dataset**        | UIC Clinical              | Auxiliary fine-tuning; fallback set                            | STUDY2024-1118                          | ~1,000                     | Awaiting Transfer                         |
-| **Historic UIC CFC Dataset** | UIC Clinical (CFC) | Pretraining  | STUDY2024-1118 | ~17,000 images | Complete |
-| **UIC CFC Dataset**                        | UIC Clinical              | Fine-tuning + validation for craniofacial tasks                | STUDY2024-1118                          | ~1,500                     | Complete                                  |
-| **GVF Dataset**                            | UIC Clinical              | Functional regression/classification task                      | STUDY2024-1118                          | ~1,000                     | Complete                                  |
-| **Mt. Sinai CFC Dataset**                  | External OOD              | OOD craniofacial validation                                    | Mt. Sinai IRB + DUA with STUDY2024-1118 | Unknown                    | Early planning                            |
-| **Aravind Validation Dataset**             | External OOD              | External validation (OOD robustness)                           | DUA + STUDY2024-1118 amendment required | ~1,000                     | Planning (contact pending)                |
+| **Foundational Model Pretraining Dataset** | Pretraining (Open Source) | Large-scale pretraining for backbone encoder                   | Not required                            | ~4,000,000                 | DONE        |
+| **UIC Retrospective Clinical Dataset**     | UIC Clinical              | Fine-tuning multiclass disease classifier; multimodal modeling | STUDY2024-1118                          | ~100,000                   | Final stages of IS             |
+| **Auxiliary Oculoplastics Dataset**        | UIC Clinical              | Auxiliary fine-tuning; fallback set                            | STUDY2024-1118                          | ~1,000                     | DONE                          |
+| **Historic UIC CFC Dataset** | UIC Clinical (CFC) | Pretraining  | STUDY2024-1118 | ~17,000 images | DONE |
+| **UIC CFC Dataset**                        | UIC Clinical              | Fine-tuning + validation for craniofacial tasks                | STUDY2024-1118                          | ~1,500                     | DONE                                  |
+| **GVF Dataset**                            | UIC Clinical              | Functional regression/classification task                      | STUDY2024-1118                          | ~1,000                     | DONE                                  |
 | **Glorbit Global Datasets**                | Prospective Global        | Prospective validation; epidemiology; robustness               | Site-specific IRBs + DUA with UIC       | Target ~1,500 across sites | Active Collection                         |
 
 
@@ -66,8 +64,8 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Create Subset 3 and do summary statistics</li>
         <li class="done">Predict periorbital distances on Subset 3 to make Subset 4</li>
         <li class="done">Create Subset 5 (OS and OD)</li>
-        <li>Some type of masked autoencoder (?) training (meet with sathya) using Subset 5 to show that we can learn good representations</li>
-        <li>Ensure it is possible and easy to go from initial downloaded dataset to final product with software tools</li>
+        <li class="done">Some type of masked autoencoder (?) training (meet with sathya) using Subset 5 to show that we can learn good representations</li>
+        <li class="done">Ensure it is possible and easy to go from initial downloaded dataset to final product with software tools</li>
     </ul>
     </div>
 
@@ -102,13 +100,11 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li class="done">Draft IRB amendment and Data Request Agreement (DRA)</li>
         <li class="done">Obtain stakeholder sign-off from clinical and data teams</li>
         <li class="done">Submit IRB amendment and DRA for approval</li>
-        <li>Initiate CCTS data pull request</li>
-        <li>Transfer relevant components to IS for EPIC pull</li>
-        <li>Submit EPIC data extraction request</li>
+        <li class="done">Initiate CCTS data pull request</li>
+        <li class="done">Receive CCTS data</li>
+        <li class="done">Submit EPIC data extraction request</li>
         <li>Receive finalized datasets from CCTS and EPIC</li>
-        <li>Run computational phenotyping pipeline</li>
         <li>Assemble finalized multimodal clinical dataset for training</li>
-        <li>Write manuscript detailing dataset creation</li>
     </ul>
     </div>
 
@@ -129,7 +125,7 @@ This section contains progress tracking for each dataset being worked on. Expand
     <ul>
         <li class="done">Coordinate disease categories + scope with Dr. Tran and Sophia</li>
         <li class="done">Sophia generates curated dataset from EPIC</li>
-        <li>Finalize dataset transfer to Georgie</li>
+        <li class="done">Finalize dataset transfer to Georgie</li>
     </ul>
     </div>
 
@@ -176,7 +172,7 @@ This section contains progress tracking for each dataset being worked on. Expand
     </ul>
     </div>
 
----
+<!-- ---
 
 ??? dataset-external "Mt. Sinai CFC Dataset — External OOD"
 
@@ -196,9 +192,9 @@ This section contains progress tracking for each dataset being worked on. Expand
     </ul>
     </div>
 
----
+--- -->
 
-??? dataset-external "Aravind Validation Dataset — External OOD"
+<!-- ??? dataset-external "Aravind Validation Dataset — External OOD"
 
     External dataset for OOD validation to be collected in collaboration with Aravind Hospital. Collection anticipated after UIC datasets have been finalized.
 
@@ -216,7 +212,7 @@ This section contains progress tracking for each dataset being worked on. Expand
         <li>Obtain DUA</li>
         <li>Receive datasets</li>
     </ul>
-    </div>
+    </div> -->
 
 ---
 ??? dataset-global "Glorbit Global Datasets — Prospective Global"

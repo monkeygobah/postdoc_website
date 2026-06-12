@@ -276,25 +276,6 @@
   
   
     <li class="md-tabs__item">
-      <a href="../foundational/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Foundational Model
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
       <a href="../projects/" class="md-tabs__link">
         
   
@@ -621,33 +602,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../foundational/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Foundational Model
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../projects/" class="md-nav__link">
         
   
@@ -845,7 +799,7 @@
 <td>Large-scale pretraining for backbone encoder</td>
 <td>Not required</td>
 <td>~4,000,000</td>
-<td>In progress (curation + cleaning)</td>
+<td>DONE</td>
 </tr>
 <tr>
 <td><strong>UIC Retrospective Clinical Dataset</strong></td>
@@ -853,7 +807,7 @@
 <td>Fine-tuning multiclass disease classifier; multimodal modeling</td>
 <td>STUDY2024-1118</td>
 <td>~100,000</td>
-<td>Pending CCTS and CFOAP</td>
+<td>Final stages of IS</td>
 </tr>
 <tr>
 <td><strong>Auxiliary Oculoplastics Dataset</strong></td>
@@ -861,7 +815,7 @@
 <td>Auxiliary fine-tuning; fallback set</td>
 <td>STUDY2024-1118</td>
 <td>~1,000</td>
-<td>Awaiting Transfer</td>
+<td>DONE</td>
 </tr>
 <tr>
 <td><strong>Historic UIC CFC Dataset</strong></td>
@@ -869,7 +823,7 @@
 <td>Pretraining</td>
 <td>STUDY2024-1118</td>
 <td>~17,000 images</td>
-<td>Complete</td>
+<td>DONE</td>
 </tr>
 <tr>
 <td><strong>UIC CFC Dataset</strong></td>
@@ -877,7 +831,7 @@
 <td>Fine-tuning + validation for craniofacial tasks</td>
 <td>STUDY2024-1118</td>
 <td>~1,500</td>
-<td>Complete</td>
+<td>DONE</td>
 </tr>
 <tr>
 <td><strong>GVF Dataset</strong></td>
@@ -885,23 +839,7 @@
 <td>Functional regression/classification task</td>
 <td>STUDY2024-1118</td>
 <td>~1,000</td>
-<td>Complete</td>
-</tr>
-<tr>
-<td><strong>Mt. Sinai CFC Dataset</strong></td>
-<td>External OOD</td>
-<td>OOD craniofacial validation</td>
-<td>Mt. Sinai IRB + DUA with STUDY2024-1118</td>
-<td>Unknown</td>
-<td>Early planning</td>
-</tr>
-<tr>
-<td><strong>Aravind Validation Dataset</strong></td>
-<td>External OOD</td>
-<td>External validation (OOD robustness)</td>
-<td>DUA + STUDY2024-1118 amendment required</td>
-<td>~1,000</td>
-<td>Planning (contact pending)</td>
+<td>DONE</td>
 </tr>
 <tr>
 <td><strong>Glorbit Global Datasets</strong></td>
@@ -950,8 +888,8 @@
     <li class="done">Create Subset 3 and do summary statistics</li>
     <li class="done">Predict periorbital distances on Subset 3 to make Subset 4</li>
     <li class="done">Create Subset 5 (OS and OD)</li>
-    <li>Some type of masked autoencoder (?) training (meet with sathya) using Subset 5 to show that we can learn good representations</li>
-    <li>Ensure it is possible and easy to go from initial downloaded dataset to final product with software tools</li>
+    <li class="done">Some type of masked autoencoder (?) training (meet with sathya) using Subset 5 to show that we can learn good representations</li>
+    <li class="done">Ensure it is possible and easy to go from initial downloaded dataset to final product with software tools</li>
 </ul>
 </div></p>
 </details>
@@ -982,13 +920,11 @@
     <li class="done">Draft IRB amendment and Data Request Agreement (DRA)</li>
     <li class="done">Obtain stakeholder sign-off from clinical and data teams</li>
     <li class="done">Submit IRB amendment and DRA for approval</li>
-    <li>Initiate CCTS data pull request</li>
-    <li>Transfer relevant components to IS for EPIC pull</li>
-    <li>Submit EPIC data extraction request</li>
+    <li class="done">Initiate CCTS data pull request</li>
+    <li class="done">Receive CCTS data</li>
+    <li class="done">Submit EPIC data extraction request</li>
     <li>Receive finalized datasets from CCTS and EPIC</li>
-    <li>Run computational phenotyping pipeline</li>
     <li>Assemble finalized multimodal clinical dataset for training</li>
-    <li>Write manuscript detailing dataset creation</li>
 </ul>
 </div></p>
 </details>
@@ -1005,7 +941,7 @@
 <ul>
     <li class="done">Coordinate disease categories + scope with Dr. Tran and Sophia</li>
     <li class="done">Sophia generates curated dataset from EPIC</li>
-    <li>Finalize dataset transfer to Georgie</li>
+    <li class="done">Finalize dataset transfer to Georgie</li>
 </ul>
 </div></p>
 </details>
@@ -1046,42 +982,48 @@
 </ul>
 </div></p>
 </details>
-<hr />
-<details class="dataset-external">
-<summary>Mt. Sinai CFC Dataset — External OOD</summary>
-<p>Independent craniofacial dataset maintained at a partner Chicago hospital. Serves as an external out-of-distribution validation cohort.</p>
-<p><strong>Category:</strong> External OOD<br />
-<strong>IRB:</strong> Mt. Sinai IRB + DUA with STUDY2024-1118<br />
-<strong>Role:</strong> External OOD validation<br />
-<strong>Size:</strong> Unknown<br />
-<strong>Personnel:</strong> Dr. Purnell, Georgie, Adaure  </p>
-<p><div data-progress>
-<ul>
-    <li>Establish contacts at Mt. Sinai</li>
-    <li>Draft IRB for data release (collaborate with Adaure)</li>
-    <li>???</li>
-</ul>
-</div></p>
-</details>
-<hr />
-<details class="dataset-external">
-<summary>Aravind Validation Dataset — External OOD</summary>
-<p>External dataset for OOD validation to be collected in collaboration with Aravind Hospital. Collection anticipated after UIC datasets have been finalized.</p>
-<p><strong>Category:</strong> External OOD<br />
-<strong>IRB:</strong> DUA + STUDY2024-1118 amendment required<br />
-<strong>Role:</strong> External validation<br />
-<strong>Size:</strong> ~1,000<br />
-<strong>Personnel:</strong> Georgie, Dr. Setabutr, Dr. Chan  </p>
-<p><div data-progress>
-<ul>
-    <li>Dr. Setabutr to initiate contact with research leads at Aravind</li>
-    <li>Update UIC IRB</li>
-    <li>Confirm data-transfer pathway</li>
-    <li>Obtain DUA</li>
-    <li>Receive datasets</li>
-</ul>
-</div></p>
-</details>
+<!-- ---
+
+??? dataset-external "Mt. Sinai CFC Dataset — External OOD"
+
+    Independent craniofacial dataset maintained at a partner Chicago hospital. Serves as an external out-of-distribution validation cohort.
+
+    **Category:** External OOD  
+    **IRB:** Mt. Sinai IRB + DUA with STUDY2024-1118  
+    **Role:** External OOD validation  
+    **Size:** Unknown  
+    **Personnel:** Dr. Purnell, Georgie, Adaure  
+
+    <div data-progress>
+    <ul>
+        <li>Establish contacts at Mt. Sinai</li>
+        <li>Draft IRB for data release (collaborate with Adaure)</li>
+        <li>???</li>
+    </ul>
+    </div>
+
+--- -->
+
+<!-- ??? dataset-external "Aravind Validation Dataset — External OOD"
+
+    External dataset for OOD validation to be collected in collaboration with Aravind Hospital. Collection anticipated after UIC datasets have been finalized.
+
+    **Category:** External OOD  
+    **IRB:** DUA + STUDY2024-1118 amendment required  
+    **Role:** External validation  
+    **Size:** ~1,000  
+    **Personnel:** Georgie, Dr. Setabutr, Dr. Chan  
+
+    <div data-progress>
+    <ul>
+        <li>Dr. Setabutr to initiate contact with research leads at Aravind</li>
+        <li>Update UIC IRB</li>
+        <li>Confirm data-transfer pathway</li>
+        <li>Obtain DUA</li>
+        <li>Receive datasets</li>
+    </ul>
+    </div> -->
+
 <hr />
 <details class="dataset-global">
 <summary>Glorbit Global Datasets — Prospective Global</summary>

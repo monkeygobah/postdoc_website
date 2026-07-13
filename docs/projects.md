@@ -10,7 +10,7 @@ This page tracks the manuscript portfolio supporting the postdoctoral research p
 | Paper                                                       | Theme                                             | Status         | Target Venue            | Notes                                      | Core Collaborators
 |---|---|---|---|---| ---|
 | Oculomics of the External Eye                                | <span class="tier-badge tier1">Core AI</span>     | Pending Data   | TBD                    | POC data for grants                            | Sathya
-| In context learning for External Eye Disease Diagnosis       | <span class="tier-badge tier1">Core AI</span>     | Pending Data   | TBD                    | Flagship scientific paper for oculoplastic disease diagnosis                | Sathya
+|External Eye Disease Diagnosis       | <span class="tier-badge tier1">Core AI</span>     | Pending Data   | TBD                    | Flagship scientific paper for oculoplastic disease diagnosis                | Sathya
 | Privacy Preservation of AI and the External Eye              | <span class="tier-badge tier1">Core AI</span>     | Pending Data   | TBD                    | Flagship scientific paper for oculoplastic disease diagnosis                | Sathya
 | Global Validation of AI Periorbital Measurements             | <span class="tier-badge tier3">Global</span>      | Researching    | npj Digital Medicine   | Global validation of predicted distances   | Larrick, Michelle, Christian (?), Sophia (?)
 | Global Deployment of AI-Enabled Ocular Phenotyping           | <span class="tier-badge tier3">Global</span>      | Pending deployment finalization         | TBD                    | MMLS paper        | Setabutr, Bhavana, Sathya, Tran 
